@@ -1,13 +1,91 @@
 """
 Purpose: To clean the csv database.
 """
-
 import csv
+import json
+"""
+CPI values in the USA from 1913-2017
+2017 is not finished, so its CPI is just an average of all months so far
+"""
+CPI_FROM_1913 = [9.9, 10.0, 10.1, 10.9, 12.8, 15.1, 17.3, 20.0, 17.9, 16.8,
+                 17.1, 17.1, 17.5, 17.7, 17.4, 17.1, 17.1, 16.7, 15.2, 13.7,
+                 13.0, 13.4, 13.7, 13.9, 14.4, 14.1, 13.9, 14.0, 14.7, 16.3,
+                 17.3, 17.6, 18.0, 19.5, 22.3, 24.1, 23.8, 24.1, 26.0, 26.5,
+                 26.7, 26.9, 26.8, 27.2, 28.1, 28.9, 29.1, 29.6, 29.9, 30.2,
+                 30.6, 31.0, 31.5, 32.4, 33.4, 34.8, 36.7, 38.8, 40.5, 41.8,
+                 44.4, 49.3, 53.8, 56.9, 60.6, 65.2, 72.6, 82.4, 90.9, 96.5,
+                 99.6, 103.9, 107.6, 109.6, 113.6, 118.3, 124.0, 130.7,
+                 136.2, 140.3, 144.5, 148.2, 152.4, 156.9, 160.5, 163.0,
+                 166.6, 172.2, 177.1, 179.9, 184.0, 188.9, 195.3, 201.6,
+                 207.3, 215.303, 214.537, 218.056, 224.939, 229.594,
+                 232.957, 236.736, 237.017, 240.007, 244.620]
 
-def correct_inflation():
+def valid_data(genre, company, release):
+    """
+    Checks data from the database if anything is blank. Zeroes in budget and
+    revenue are okay. A blank title is also ok. A blank genre, company,
+    and release date however, would make it impossible to categorize.
+    """
+    is_valid = True
+
+    if genre == '[]':
+        is_valid = False
+    if company == '[]':
+        is_valid = False
+    if release == '':
+        is_valid = False
+
+    return is_valid
+
+def get_year(date):
+    """
+    Convert a YYYY-MM-DD string to year.
+    """
+    year = 0
+
+    if date != '':
+        year = int(date[:4])
+
+    return year
+
+def get_genre(genre_json):
+    """
+    A non empty entry in "genres" will be a json of all genres associated
+    with the movie. Since we should only have one category for each aspect
+    of a movie, we arbitrarily choose the first entry.
+
+    Format of input string:
+    [{"id": 1, "name": "Genre"}, {"id": 2, "name": "Genre"}]
+    """
+    return_genre = 'Empty'
+
+    if (genre_json != '[]'):
+        #Take away the [] from the string
+        genre_json = genre_json[1:len(genre_json)-1]
+
+        #Get the content inside the first {id, name}
+        genre_array = genre_json.split('}')
+        test = genre_array[0] + '}'
+
+        #Now that we have the first {id, name}, we can use the json library
+        json_string = json.loads(test)
+        return_genre = json_string['name']
+
+    return return_genre
+
+
+def correct_inflation(old_year, curr_year, dollar):
     """
     Used to convert to current 2017 values for US dollar.
     """
+    new_value = 0
+    old_cpi = CPI_FROM_1913[old_year - 1913]
+    curr_cpi = CPI_FROM_1913[curr_year - 1913]
+
+    if curr_cpi != 0:
+        new_value = ((curr_cpi * int(dollar))/old_cpi)
+
+    return new_value
 
 def clean_data():
     """
@@ -29,15 +107,24 @@ def clean_data():
     writer.writeheader()
 
     for row in reader:
-        #if 'United States of America' in row['production_countries']:
         #\ufeff is a "byte order mark" ahead of the first column name.
         #Changing encoding above to utf-8-sig would have eliminated this,
         #but broken the "1/3" symbol again.
-        writer.writerow({'title': row['title'],
-                         'genre': 'TEST',
-                         'prod_budget': row['\ufeffbudget'],
-                         'company': 'TEST',
-                         'release': row['release_date'],
-                         'revenue': row['revenue']})
+        genre = row['genres']
+        companies = row['production_companies']
+        release = row['release_date']
+
+        if valid_data(genre, companies, release):
+            #year = get_year(row['release_date'])
+            #new_budget = correct_inflation(year, 2017, row['\ufeffbudget'])
+            #new_revenue = correct_inflation(year, 2017, row['revenue'])
+
+            writer.writerow({'title': row['title'],
+                             'genre': 'TEST',
+                             'prod_budget': row['\ufeffbudget'],
+                             'company': 'TEST',
+                             'release': row['release_date'],
+                             'revenue': row['revenue']})
+            print(get_genre(genre))
 
 clean_data()
