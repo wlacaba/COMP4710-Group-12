@@ -1,5 +1,13 @@
 """
 Purpose: To clean the csv database.
+
+Info about data:
+20 Genres
+20 Budget Brackets (increments of 50 million, up to 1 billion)
+12 Release Dates (going by months)
+x Production Companies
+
+11 Revenue Brackets (increments of 100 million, up to > 1 billion)
 """
 import csv
 import json
@@ -39,7 +47,8 @@ def valid_data(genre, company, release):
 
 def get_year(date):
     """
-    Convert a YYYY-MM-DD string to year.
+    Parse the year from a YYYY-MM-DD string. Used to correct money
+    values for inflation.
     """
     year = 0
 
@@ -47,6 +56,19 @@ def get_year(date):
         year = int(date[:4])
 
     return year
+
+def get_month(date):
+    """
+    Parse the month from a YYYY-MM-DD string. Used as one of the categories
+    for classification.
+    """
+    month = 0
+
+    if date != '':
+        date_parts = date.split('-')
+        month = date_parts[1]
+
+    return month
 
 def get_genre(genre_json):
     """
@@ -73,7 +95,6 @@ def get_genre(genre_json):
 
     return return_genre
 
-
 def correct_inflation(old_year, curr_year, dollar):
     """
     Used to convert to current 2017 values for US dollar.
@@ -86,6 +107,37 @@ def correct_inflation(old_year, curr_year, dollar):
         new_value = ((curr_cpi * int(dollar))/old_cpi)
 
     return new_value
+
+def get_budget_bracket(old_year, curr_year, dollar):
+    """
+    Correct budget for inflation and then sort it into a bracket.
+    Goes by categories of 50,000,000 up to > 1,000,000,000.
+    """
+    dollar_value = correct_inflation(old_year, curr_year, dollar)
+    bracket = 0
+    upper_limit = 0
+
+    while upper_limit < dollar_value and upper_limit <= 1000000000:
+        upper_limit += 50000000
+        bracket += 1
+
+    return bracket
+
+def get_revenue_bracket(old_year, curr_year, dollar):
+    """
+    Correct revenue for inflation and then sort it into a bracket.
+    Goes by categories of 100,000,000 up to > 1,000,000,000.
+    """
+    dollar_value = correct_inflation(old_year, curr_year, dollar)
+    bracket = 0
+    upper_limit = 0
+
+    while upper_limit < dollar_value and upper_limit <= 1000000000:
+        upper_limit += 100000000
+        bracket += 1
+
+    return bracket
+
 
 def clean_data():
     """
@@ -107,24 +159,29 @@ def clean_data():
     writer.writeheader()
 
     for row in reader:
-        #\ufeff is a "byte order mark" ahead of the first column name.
-        #Changing encoding above to utf-8-sig would have eliminated this,
-        #but broken the "1/3" symbol again.
+        """
+        \ufeff is a "byte order mark" ahead of the first column name.
+        Changing encoding above to utf-8-sig would have eliminated this, but
+        broken the "1/3" symbol again.
+        """
         genre = row['genres']
         companies = row['production_companies']
         release = row['release_date']
 
         if valid_data(genre, companies, release):
-            #year = get_year(row['release_date'])
-            #new_budget = correct_inflation(year, 2017, row['\ufeffbudget'])
-            #new_revenue = correct_inflation(year, 2017, row['revenue'])
+            year = get_year(release)
+
+            new_budget = get_budget_bracket(year, 2017, row['\ufeffbudget'])
+            new_revenue = get_revenue_bracket(year, 2017, row['revenue'])
+            new_genre = get_genre(genre)
 
             writer.writerow({'title': row['title'],
-                             'genre': 'TEST',
-                             'prod_budget': row['\ufeffbudget'],
+                             'genre': new_genre,
+                             'prod_budget': new_budget,
                              'company': 'TEST',
-                             'release': row['release_date'],
-                             'revenue': row['revenue']})
-            print(get_genre(genre))
+                             'release': get_month(release),
+                             'revenue': new_revenue})
+
+            
 
 clean_data()
