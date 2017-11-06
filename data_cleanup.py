@@ -1,12 +1,15 @@
 """
-Purpose: To clean the csv database.
+Purpose: To parse the original database for useful information that we need.
+Data involving money will be corrected for inflation and put into categories.
+Release dates will be categorized simply by month.
+Genres and Production companies will be parsed, and the first one in each
+list will be used as the category for that movie.
 
 Info about data:
 20 Genres
-20 Budget Brackets (increments of 50 million, up to 1 billion)
+21 Budget Brackets (increments of 50 million, up to > 1 billion)
 12 Release Dates (going by months)
 x Production Companies
-
 11 Revenue Brackets (increments of 100 million, up to > 1 billion)
 """
 import csv
@@ -87,13 +90,38 @@ def get_genre(genre_json):
 
         #Get the content inside the first {id, name}
         genre_array = genre_json.split('}')
-        test = genre_array[0] + '}'
+        first = genre_array[0] + '}'
 
         #Now that we have the first {id, name}, we can use the json library
-        json_string = json.loads(test)
+        json_string = json.loads(first)
         return_genre = json_string['name']
 
     return return_genre
+
+def get_company(company_json):
+    """
+    A non empty entry will be a json of all genres associated
+    with the movie. Since we should only have one category for each aspect
+    of a movie, we arbitrarily choose the first entry.
+
+    Format of input string:
+    [{"id": 1, "name": "Company1"}, {"id": 2, "name": "Company2"}]
+    """
+    return_company = 'Empty'
+
+    if (company_json != '[]'):
+        #Take away the [] from the string
+        company_json = company_json[1:len(company_json)-1]
+
+        #Get the content inside the first {id, name}
+        company_array = company_json.split('}')
+        first = company_array[0] + '}'
+
+        #Now that we have the first {id, name}, we can use the json library
+        json_string = json.loads(first)
+        return_company = json_string['name']
+        
+    return return_company
 
 def correct_inflation(old_year, curr_year, dollar):
     """
@@ -174,6 +202,8 @@ def clean_data():
             new_budget = get_budget_bracket(year, 2017, row['\ufeffbudget'])
             new_revenue = get_revenue_bracket(year, 2017, row['revenue'])
             new_genre = get_genre(genre)
+            company_set.add(get_company(companies))
+
 
             writer.writerow({'title': row['title'],
                              'genre': new_genre,
@@ -181,7 +211,5 @@ def clean_data():
                              'company': 'TEST',
                              'release': get_month(release),
                              'revenue': new_revenue})
-
-            
 
 clean_data()
