@@ -9,7 +9,7 @@ Info about data:
 20 Genres
 21 Budget Brackets (increments of 50 million, up to > 1 billion)
 12 Release Dates (going by months)
-x Production Companies
+1310 Production Companies
 11 Revenue Brackets (increments of 100 million, up to > 1 billion)
 """
 import csv
@@ -202,8 +202,6 @@ def clean_data():
             new_budget = get_budget_bracket(year, 2017, row['\ufeffbudget'])
             new_revenue = get_revenue_bracket(year, 2017, row['revenue'])
             new_genre = get_genre(genre)
-            company_set.add(get_company(companies))
-
 
             writer.writerow({'title': row['title'],
                              'genre': new_genre,
