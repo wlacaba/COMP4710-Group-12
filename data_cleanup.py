@@ -1,16 +1,20 @@
 """
-Purpose: To parse the original database for useful information that we need.
+PURPOSE
+To parse the original database for useful information that we need.
 Data involving money will be corrected for inflation and put into categories.
 Release dates will be categorized simply by month.
 Genres and Production companies will be parsed, and the first one in each
 list will be used as the category for that movie.
 
-Info about data:
+INFO ABOUT DATA
 20 Genres
 1310 Production Companies
 12 Release Dates (going by months)
 21 Budget Brackets (increments of 50 million, up to > 1 billion)
 11 Revenue Brackets (increments of 100 million, up to > 1 billion)
+
+AUTHOR
+Warren Lacaba
 """
 import csv
 import json
@@ -35,6 +39,7 @@ BUDGET_INCREMENT = 50000000     #Amount to increment budget bracket
 CURR_YEAR = 2017                #Current year for calculating inflation
 
 #DATA VALIDATION FUNCTIONS----------------------------------------------------
+
 def valid_list_of_genre(data_entry):
     """
     PURPOSE
@@ -294,8 +299,8 @@ def clean_data():
     """
     #Note: encoding='utf-8' necessary to be able to read all chars properly.
     #One of the movie titles has a "1/3" symbol that's messing everything up.
-    read_csv = open('tmdb_5000_movies.csv', 'r', encoding='utf-8')
-    write_csv = open('new_database.csv', 'w', newline='', encoding='utf-8')
+    read_csv = open('data/tmdb_5000_movies.csv', 'r', encoding='utf-8')
+    write_csv = open('data/new_database.csv', 'w', newline='', encoding='utf-8')
 
     reader = csv.DictReader(read_csv)
     writer = csv.DictWriter(write_csv, {'title',
