@@ -8,10 +8,10 @@ list will be used as the category for that movie.
 
 INFO ABOUT DATA
 20 Genres
-1310 Production Companies
+21 Production Companies
 12 Release Dates (going by months)
-21 Budget Brackets (increments of 50 million, up to > 1 billion)
-11 Revenue Brackets (increments of 100 million, up to > 1 billion)
+5 Budget Brackets (increments of 125 million, up to > 500 million)
+5 Revenue Brackets (increments of 250 million, up to > 1 billion)
 
 AUTHOR
 Warren Lacaba
@@ -19,6 +19,7 @@ Warren Lacaba
 import csv
 import json
 import re
+from collections import Counter
 
 #Consumer Price Index values from 1913-2017
 CPI_FROM_1913 = [9.9, 10.0, 10.1, 10.9, 12.8, 15.1, 17.3, 20.0, 17.9, 16.8,
@@ -33,9 +34,10 @@ CPI_FROM_1913 = [9.9, 10.0, 10.1, 10.9, 12.8, 15.1, 17.3, 20.0, 17.9, 16.8,
                  166.6, 172.2, 177.1, 179.9, 184.0, 188.9, 195.3, 201.6,
                  207.3, 215.303, 214.537, 218.056, 224.939, 229.594,
                  232.957, 236.736, 237.017, 240.007, 244.620]
-MONEY_LIMIT = 1000000000        #Upper limit of money for calculating brackets
-REVENUE_INCREMENT = 100000000   #Amount to increment revenue bracket
-BUDGET_INCREMENT = 50000000     #Amount to increment budget bracket
+REVENUE_LIMIT = 1000000000        #Upper limit of rev for calculating brackets
+BUDGET_LIMIT = 500000000          #Upper limit of budget for brackets
+REVENUE_INCREMENT = 250000000   #Amount to increment revenue bracket
+BUDGET_INCREMENT = 125000000     #Amount to increment budget bracket
 CURR_YEAR = 2017                #Current year for calculating inflation
 
 #DATA VALIDATION FUNCTIONS----------------------------------------------------
@@ -221,7 +223,7 @@ def get_company(list_of_company_json):
     OUTPUT
     return_company: string name of the company, 'Empty' if input not valid
     """
-    return_company = 'Empty'
+    return_company = 'Other'
 
     if valid_list_of_company(list_of_company_json):
         return_company = get_category_name(list_of_company_json)
@@ -297,10 +299,13 @@ def clean_data():
     DictWriter will write a random order of headers everytime, not a problem
     considering this is only gonna be run once. Just something to remember.
     """
+
+    common_companies = most_common_companies()
+
     #Note: encoding='utf-8' necessary to be able to read all chars properly.
     #One of the movie titles has a "1/3" symbol that's messing everything up.
     read_csv = open('data/tmdb_5000_movies.csv', 'r', encoding='utf-8')
-    write_csv = open('data/new_database.csv', 'w', newline='', encoding='utf-8')
+    write_csv = open('data/new_database2.csv', 'w', newline='', encoding='utf-8')
 
     reader = csv.DictReader(read_csv)
     writer = csv.DictWriter(write_csv, {'title',
@@ -318,8 +323,19 @@ def clean_data():
 
         if valid_data(genre, companies, release):
             new_genre = get_genre(genre)
-            new_company = get_company(companies)
             year = get_date(release, 0)
+
+            #Only insert 20 most common companies, and 'Other'
+            new_company = get_company(companies)
+            
+            #Columbia Pictures is a bit of an anomaly
+            #Columbia Pictures Corporation and Columbia Pictures are the
+            #same company, so you gotta correct for this
+            if new_company == 'Columbia Pictures Corporation':
+                new_company = 'Columbia Pictures'
+            
+            if new_company not in common_companies:
+                new_company = 'Other'
 
             """
             \ufeff is a "byte order mark" ahead of the first column name.
@@ -327,9 +343,9 @@ def clean_data():
             care of this but would have broken the "1/3" symbol again.
             """
             new_budget = calculate_bracket(year, 2017, row['\ufeffbudget'],
-                                           MONEY_LIMIT, BUDGET_INCREMENT)
+                                           BUDGET_LIMIT, BUDGET_INCREMENT)
             new_revenue = calculate_bracket(year, 2017, row['revenue'],
-                                            MONEY_LIMIT, REVENUE_INCREMENT)
+                                            REVENUE_LIMIT, REVENUE_INCREMENT)
 
             writer.writerow({'title': row['title'],
                              'genre': new_genre,
@@ -337,6 +353,39 @@ def clean_data():
                              'company': new_company,
                              'release': get_date(release, 1),
                              'revenue': new_revenue})
+
+def most_common_companies():
+    """
+    Helper function to find most common companies
+    """
+    read = open('data/tmdb_5000_movies.csv', 'r', encoding='utf-8')
+    readin = csv.DictReader(read)
+    comp_list = []
+
+    for row in readin:
+
+        company = get_company(row['production_companies']) 
+
+        #Columbia Pictures is a bit of an anomaly
+        #Columbia Pictures Corporation and Columbia Pictures are the
+        #same company, so you gotta correct for this
+        if company == 'Columbia Pictures Corporation':
+            comp_list.append('Columbia Pictures')
+        else:
+            comp_list.append(company)
+
+    count = Counter(comp_list)
+    common = count.most_common(21)
+
+    return_value = set()
+
+    for i in range(1, len(common)):
+        return_value.add(common[i][0])
+
+
+    read.close()
+    return return_value
+#clean_data()
 
 clean_data()
 
