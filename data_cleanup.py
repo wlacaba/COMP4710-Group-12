@@ -8,10 +8,10 @@ list will be used as the category for that movie.
 
 INFO ABOUT DATA
 20 Genres
-21 Production Companies
-12 Release Dates (going by months)
-5 Budget Brackets (increments of 125 million, up to > 500 million)
-5 Revenue Brackets (increments of 250 million, up to > 1 billion)
+21 Production Companies (20 + Other)
+12 Release Dates (Months)
+5 Budget Brackets (Increments of 125 million, up to > 500 million)
+5 Revenue Brackets (Increments of 250 million, up to > 1 billion)
 
 AUTHOR
 Warren Lacaba
@@ -36,10 +36,12 @@ CPI_FROM_1913 = [9.9, 10.0, 10.1, 10.9, 12.8, 15.1, 17.3, 20.0, 17.9, 16.8,
                  232.957, 236.736, 237.017, 240.007, 244.620]
 REVENUE_LIMIT = 1000000000        #Upper limit of rev for calculating brackets
 BUDGET_LIMIT = 500000000          #Upper limit of budget for brackets
-REVENUE_INCREMENT = 250000000   #Amount to increment revenue bracket
-BUDGET_INCREMENT = 125000000     #Amount to increment budget bracket
-CURR_YEAR = 2017                #Current year for calculating inflation
-
+REVENUE_INCREMENT = 250000000     #Amount to increment revenue bracket
+BUDGET_INCREMENT = 125000000      #Amount to increment budget bracket
+CURR_YEAR = 2017                  #Current year for calculating inflation
+MAX_COMMON_MOVIES = 21            #Need 21 because you want 20 movies, also a
+                                  #majority are labelled 'empty' which
+                                  #obviously doesn't count
 #DATA VALIDATION FUNCTIONS----------------------------------------------------
 
 def valid_list_of_genre(data_entry):
@@ -128,6 +130,55 @@ def valid_data(genre, company, release):
         is_valid = False
 
     return is_valid
+
+#HELPER-----------------------------------------------------------------------
+
+def most_common_companies():
+    """
+    PURPOSE
+    Find most common companies in database, before, we had 1300 companies
+    which we decided was too many classes for a database that only had
+    5000 movies to begin with. 
+
+    INPUT
+    None
+
+    OUTPUT
+    set_companies: set of 20 most common movies
+
+    NOTES
+    The constant, MAX_COMMON_MOVIES is 21 rather than 20 because the most
+    common movie company was actually labelled 'Empty' so I needed to
+    account for this. 
+
+    Columbia Pictures Corporation is the same company as Columbia
+    Pictures. They both appear in the most common when they should be
+    the same thing, so I needed to correct for this as well. 
+    """
+    read = open('data/tmdb_5000_movies.csv', 'r', encoding='utf-8')
+    readin = csv.DictReader(read)
+    comp_list = []
+
+    for row in readin:
+
+        company = get_company(row['production_companies']) 
+
+        if company == 'Columbia Pictures Corporation':
+            comp_list.append('Columbia Pictures')
+        else:
+            comp_list.append(company)
+
+    count = Counter(comp_list)
+    common = count.most_common(MAX_COMMON_MOVIES)
+
+    set_companies = set()
+
+    #Again, 'Empty' is the most common, so start with 1 instead of 0
+    for i in range(1, len(common)):
+        set_companies.add(common[i][0])
+
+    read.close()
+    return set_companies
 
 #DATA PARSING FUNCTIONS-------------------------------------------------------
 
@@ -295,7 +346,7 @@ def clean_data():
     OUTPUT
     None
 
-    NOTETOSELF
+    NOTES
     DictWriter will write a random order of headers everytime, not a problem
     considering this is only gonna be run once. Just something to remember.
     """
@@ -325,15 +376,17 @@ def clean_data():
             new_genre = get_genre(genre)
             year = get_date(release, 0)
 
-            #Only insert 20 most common companies, and 'Other'
             new_company = get_company(companies)
-            
-            #Columbia Pictures is a bit of an anomaly
-            #Columbia Pictures Corporation and Columbia Pictures are the
-            #same company, so you gotta correct for this
+
+            """
+            Columbia Pictures is a bit of an anomaly
+            Columbia Pictures Corporation and Columbia Pictures are the
+            same company, so you gotta correct for this
+            """
             if new_company == 'Columbia Pictures Corporation':
                 new_company = 'Columbia Pictures'
             
+            #Only insert 20 most common companies, and 'Other'
             if new_company not in common_companies:
                 new_company = 'Other'
 
@@ -353,39 +406,6 @@ def clean_data():
                              'company': new_company,
                              'release': get_date(release, 1),
                              'revenue': new_revenue})
-
-def most_common_companies():
-    """
-    Helper function to find most common companies
-    """
-    read = open('data/tmdb_5000_movies.csv', 'r', encoding='utf-8')
-    readin = csv.DictReader(read)
-    comp_list = []
-
-    for row in readin:
-
-        company = get_company(row['production_companies']) 
-
-        #Columbia Pictures is a bit of an anomaly
-        #Columbia Pictures Corporation and Columbia Pictures are the
-        #same company, so you gotta correct for this
-        if company == 'Columbia Pictures Corporation':
-            comp_list.append('Columbia Pictures')
-        else:
-            comp_list.append(company)
-
-    count = Counter(comp_list)
-    common = count.most_common(21)
-
-    return_value = set()
-
-    for i in range(1, len(common)):
-        return_value.add(common[i][0])
-
-
-    read.close()
-    return return_value
-#clean_data()
 
 clean_data()
 

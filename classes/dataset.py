@@ -16,7 +16,7 @@ class Dataset:
         self.name = "MOVIES"
         self.learn_set = []
         self.test_set = []
-        self.attribute_list = []
+        self.attribute_set = set()
 
     def get_data(self, database_name):
         """
@@ -34,21 +34,21 @@ class Dataset:
         read = open(database_name, 'r', encoding='utf-8')
         reader = csv.DictReader(read)
 
-        self.attribute_list = reader.fieldnames
+        self.attribute_set = set(reader.fieldnames)
 
         for row in reader:
-            movie_tuple = (row['title'],
-                           row['revenue'],
-                           row['release'],
-                           row['prod_budget'],
-                           row['genre'],
-                           row['company'])
+            movie_dict = { 'title': row['title'],
+                           'revenue': row['revenue'],
+                           'release': row['release'],
+                           'prod_budget': row['prod_budget'],
+                           'genre': row['genre'],
+                           'company': row['company']}
 
             coin_toss = random.randint(0, 1)
 
             if coin_toss == 0:
-                self.learn_set.append(movie_tuple)
+                self.learn_set.append(movie_dict)
             elif coin_toss == 1:
-                self.test_set.append(movie_tuple)
+                self.test_set.append(movie_dict)
 
         
