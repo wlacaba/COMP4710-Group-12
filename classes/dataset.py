@@ -34,11 +34,17 @@ class Dataset:
         read = open(database_name, 'r', encoding='utf-8')
         reader = csv.DictReader(read)
 
+        """
+        Remove these because you don't want them as splitting attributes.
+        I only included title in the database just in case we need it for
+        the written report, and revenue is the class we want to classify by.
+        """
         self.attribute_set = set(reader.fieldnames)
+        self.attribute_set.discard('title')
+        self.attribute_set.discard('revenue')
 
         for row in reader:
-            movie_dict = { 'title': row['title'],
-                           'revenue': row['revenue'],
+            movie_dict = { 'revenue': row['revenue'],
                            'release': row['release'],
                            'prod_budget': row['prod_budget'],
                            'genre': row['genre'],

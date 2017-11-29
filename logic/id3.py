@@ -4,6 +4,8 @@ Build the ID3 decision tree here.
 import os
 import sys
 import math
+from operator import itemgetter
+from itertools import groupby
 from collections import Counter
 
 #Gotta add the name of your current directory's parent directory to path
@@ -72,22 +74,16 @@ def id3_tree(learn_set, attribute_set):
 
 def find_information_gain(learn_set, attribute_set):
     """
-    Let D be the learning set.
-    Let m be the number of distinct values for attribute. 
-    Let Cid be the set of tuples of class Ci in D. 
-    Let |D| and |Cid| be the size of each. 
+    PURPOSE
+    Calculate the information gain of each attribute. A higher gain in
+    information will give us the best attribute to split a node by. 
 
-    apply Attribute selection method(D, attribute list) to find the “best” splitting criterion;
-(7) label node N with splitting criterion;
-(8) if splitting attribute is discrete-valued and multiway splits allowed then // not restricted to binary trees
-(9) attribute list = attribute list - splitting attribute; // remove splitting attribute
-(10) for each outcome j of splitting criterion // partition the tuples and grow subtrees for each partition
-(11)    let Dj be the set of data tuples in D satisfying outcome j; // a partition
-(12)        if Dj is empty then
-(13)            attach a leaf labeled with the majority class in D to node N;
-(14)        else attach the node returned by Generate decision tree(Dj , attribute list) to node N;
-    endfor
-(15) return N;
+    INPUT
+    learn_set: a list of movies to train the algorithm
+    attribute_set: a set of the attributes we want to split by
+
+    OUTPUT
+    best_attribute: the name of the best attribute to split by
     """
 
     info_gain = 0
@@ -95,13 +91,14 @@ def find_information_gain(learn_set, attribute_set):
     info_of_class = calculate_entropy(learn_set, 'revenue')
 
     for attribute in attribute_set:
-        info_of_attribute = 0 #Amount needed to store info based on attribute, calculate info(attribute)
+        info_of_attribute = calculate_info(learn_set, attribute, 'revenue')
         new_info_gain = info_of_class - info_of_attribute
-
+        print(attribute + " " + str(new_info_gain))
         if new_info_gain > info_gain:
             info_gain = new_info_gain
             best_attribute = attribute
 
+    print(best_attribute)
     return best_attribute
 
 def calculate_entropy(learn_set, target_attribute):
@@ -137,19 +134,56 @@ def calculate_entropy(learn_set, target_attribute):
     for label in common:
         count_label = label[1]
         portion = count_label/total_size
-        entropy += -((portion)*math.log2(portion))
+        entropy -= ((portion)*math.log2(portion))
 
-    print(str(entropy))
     return entropy
 
+def calculate_info(learn_set, attribute, target_attribute):
+    """
+    PURPOSE
+    Calculate how much more info needed to get a classification. 
 
+    INPUT
+    learn_set: the list of movies used to train the algorithm
+    attribute: possible attribute we want to split on
+    target_attribute: attribute we want to classify on, revenue
+
+    OUTPUT
+    info: amount of info needed to get a classification
+
+    NOTES
+
+    Given by formula:
+
+    Sum((count of attribute's value/total size) * entropy(partition of just that attribute value))
+    """
+    info = 0
+    keys = []
+    groups = []
+    total_size = len(learn_set)
+
+    #Sort so we can use groupby to find partitions on attribute
+    learn_set = sorted(learn_set, key=itemgetter(attribute))
+
+    for group in groupby(learn_set, itemgetter(attribute)):
+        keys.append(group[0])
+        groups.append(list(group[1]))
+
+    for g in groups:
+        count = len(g)
+        portion = count/total_size
+        info += portion * calculate_entropy(g, target_attribute)
+
+    return info
 
 def run_id3(database_name):
     """
     Run
     """
     mydata = init_dataset(database_name)
-    calculate_entropy(mydata.learn_set, 'revenue')
+    gain = find_information_gain(mydata.learn_set, mydata.attribute_set)
+    #calculate_info(mydata.learn_set, 'prod_budget', 'revenue')
+    #calculate_entropy(mydata.learn_set, 'revenue')
     #id3_tree(mydata.learn_set, mydata.attribute_set)
 
 run_id3('../data/new_database2.csv') #just testing stuff
