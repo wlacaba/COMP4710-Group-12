@@ -15,6 +15,7 @@ class Node:
 
     def __init__(self, label):
         self.label = label
+        self.branches = []
         self.children = []
 
     def new_child(self, new_node):
@@ -30,6 +31,19 @@ class Node:
         """
         self.children.append(new_node)
 
+    def new_branch(self, new_branch):
+        """
+        PURPOSE 
+        Insert a new branch label with the attribute value.
+
+        INPUT
+        new_branch: Label of branch
+
+        OUTPUT
+        None
+        """
+        self.branches.append(new_branch)
+
     def print_children(self):
         """
         PURPOSE
@@ -42,7 +56,32 @@ class Node:
         None
         """
         for child in self.children:
-            print(child.name)
+            print(child.label)
+
+    def print_branches(self):
+        """
+        PURPOSE
+        Print names of branches. 
+
+        INPUT
+        None
+
+        OUTPUT
+        None
+        """
+        for branch in self.branches:
+            print(branch)
+
+    def print_all(self):
+        branch_length = len(self.branches)
+        print(self.label)
+        if branch_length != 0:
+            for i in range(0, branch_length):
+                print("Branch of " + self.label + ": " + self.branches[i])
+                self.children[i].print_all()
+        else:
+            print("")
+                
 
     def print_label(self):
         """

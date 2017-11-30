@@ -44,9 +44,9 @@ class Dataset:
         self.attribute_set.discard('revenue')
 
         for row in reader:
-            movie_dict = { 'revenue': row['revenue'],
-                           'release': row['release'],
-                           'prod_budget': row['prod_budget'],
+            movie_dict = { 'revenue': 'rv' + row['revenue'],
+                           'release': 're' + row['release'],
+                           'prod_budget': 'b' + row['prod_budget'],
                            'genre': row['genre'],
                            'company': row['company']}
 

@@ -60,17 +60,40 @@ def id3_tree(learn_set, attribute_set):
             revenue_all_same = False
 
     if revenue_all_same:
-        #Label node with the attribute
+        #Label node with the revenue class
         curr_node.update_node_label(revenue_class)
     elif attribute_set_length == 0:
-        #Majority vote on the class
-        #Label node with the class
+        #Majority vote on the class, label node with that class
         revenue_counter = Counter(list_revenues)
         revenue_majority = revenue_counter.most_common(1)
         curr_node.update_node_label(revenue_majority[0][0])
     else:
-        #Continue algorithm
-        print('Algorithm continues')
+        attribute_name = find_information_gain(learn_set, attribute_set)
+        attribute_set.discard(attribute_name)
+
+        groups = []
+        keys = []
+        learn_set = sorted(learn_set, key=itemgetter(attribute_name))
+
+        for group in groupby(learn_set, itemgetter(attribute_name)):
+            keys.append(group[0])
+            groups.append(list(group[1]))
+
+        curr_node.update_node_label(attribute_name)
+
+        for i in range(0, len(keys)):
+            partition_size = len(groups[i])
+            if partition_size == 0:
+                #Attach a leaf labeled with majority class in D to curr_node
+                majority_counter = Counter(list_revenues)
+                common_rev = majority_counter.most_common(1)
+                curr_node.update_node_label(common_rev[0][0])
+            else:
+                #Recursively call on partitioned learn_set
+                curr_node.new_branch(keys[i])
+                curr_node.new_child(id3_tree(groups[i], attribute_set))
+    
+    return curr_node
 
 def find_information_gain(learn_set, attribute_set):
     """
@@ -87,18 +110,17 @@ def find_information_gain(learn_set, attribute_set):
     """
 
     info_gain = 0
-    best_attribute = 'Empty'
+    best_attribute = ''
     info_of_class = calculate_entropy(learn_set, 'revenue')
 
     for attribute in attribute_set:
         info_of_attribute = calculate_info(learn_set, attribute, 'revenue')
         new_info_gain = info_of_class - info_of_attribute
-        print(attribute + " " + str(new_info_gain))
-        if new_info_gain > info_gain:
+        
+        if new_info_gain >= info_gain:
             info_gain = new_info_gain
             best_attribute = attribute
 
-    print(best_attribute)
     return best_attribute
 
 def calculate_entropy(learn_set, target_attribute):
@@ -181,9 +203,8 @@ def run_id3(database_name):
     Run
     """
     mydata = init_dataset(database_name)
-    gain = find_information_gain(mydata.learn_set, mydata.attribute_set)
-    #calculate_info(mydata.learn_set, 'prod_budget', 'revenue')
-    #calculate_entropy(mydata.learn_set, 'revenue')
-    #id3_tree(mydata.learn_set, mydata.attribute_set)
+
+    tree_root = id3_tree(mydata.learn_set, mydata.attribute_set)
+    tree_root.print_all()
 
 run_id3('../data/new_database2.csv') #just testing stuff
