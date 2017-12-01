@@ -19,7 +19,14 @@ from classes.node import Node
 
 def init_dataset(database_name):
     """
-    Blah
+    PURPOSE
+    Read in dataset. Set up the test and learn sets. 
+
+    INPUT
+    database_name: name (and path) of database
+
+    OUTPUT
+    newdata: dataset object
     """
     newdata = Dataset()
     newdata.get_data(database_name)
@@ -43,8 +50,10 @@ def id3_tree(learn_set, attribute_set):
     #Create a node, label and attach to tree later
     curr_node = Node('Empty')
 
-    #If attribute set is empty
-    attribute_set_length = len(attribute_set)
+    #Need shallow copy of attribute_set, or else we won't actually
+    #find all possible rules
+    attributes = attribute_set.copy()
+    attribute_set_length = len(attributes)
 
     #Check if all revenue values are the same by comparing all of them
     #with the first one. If all the same, algorithm terminates.
@@ -68,9 +77,10 @@ def id3_tree(learn_set, attribute_set):
         revenue_majority = revenue_counter.most_common(1)
         curr_node.update_node_label(revenue_majority[0][0])
     else:
-        attribute_name = find_information_gain(learn_set, attribute_set)
-        attribute_set.discard(attribute_name)
+        attribute_name = find_information_gain(learn_set, attributes)
+        attributes.discard(attribute_name)
 
+        #Group everything by attribute class
         groups = []
         keys = []
         learn_set = sorted(learn_set, key=itemgetter(attribute_name))
@@ -81,8 +91,10 @@ def id3_tree(learn_set, attribute_set):
 
         curr_node.update_node_label(attribute_name)
 
+        #For each possible attribute class
         for i in range(0, len(keys)):
             partition_size = len(groups[i])
+
             if partition_size == 0:
                 #Attach a leaf labeled with majority class in D to curr_node
                 majority_counter = Counter(list_revenues)
@@ -91,7 +103,7 @@ def id3_tree(learn_set, attribute_set):
             else:
                 #Recursively call on partitioned learn_set
                 curr_node.new_branch(keys[i])
-                curr_node.new_child(id3_tree(groups[i], attribute_set))
+                curr_node.new_child(id3_tree(groups[i], attributes))
     
     return curr_node
 
@@ -205,6 +217,6 @@ def run_id3(database_name):
     mydata = init_dataset(database_name)
 
     tree_root = id3_tree(mydata.learn_set, mydata.attribute_set)
-    tree_root.print_all()
+    tree_root.print_all('') #Just print out the rules
 
 run_id3('../data/new_database2.csv') #just testing stuff
