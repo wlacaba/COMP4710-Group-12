@@ -14,6 +14,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from classes.dataset import Dataset
 from classes.node import Node
+from classes.tree import Tree
 
 #HELPERS----------------------------------------------------------------------
 
@@ -216,7 +217,34 @@ def run_id3(database_name):
     """
     mydata = init_dataset(database_name)
 
-    tree_root = id3_tree(mydata.learn_set, mydata.attribute_set)
-    tree_root.print_all('') #Just print out the rules
+    decision_tree = Tree(id3_tree(mydata.learn_set, mydata.attribute_set))
+    decision_tree.insert_rules()
+
+    num_correct = 0
+
+    for movie in mydata.test_set:
+        for rule in decision_tree.rules:
+
+            conditions_met = True
+            key = ''
+            value = ''
+            for i in range(0, len(rule) - 1):
+                if i % 2 == 0:
+                    #Even index, so it's an attribute name
+                    key = rule[i]
+                else:
+                    #Odd index, so it's an attribute value
+                    value = rule[i]
+
+                    #Check if value is correct
+                    if movie[key] != value:
+                        conditions_met = False
+            
+            if conditions_met:
+                if rule[len(rule) - 1] == movie['revenue']:
+                    num_correct += 1
+    
+    print(str(num_correct))
+    print(str(len(mydata.test_set)))
 
 run_id3('../data/new_database2.csv') #just testing stuff

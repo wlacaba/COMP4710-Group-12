@@ -85,7 +85,7 @@ class Node:
         None
         """
         branch_length = len(self.branches)
-        curr = parent + ", " + self.label + ", "
+        curr = parent + "," + self.label + ","
 
         if branch_length != 0:
             for i in range(0, branch_length):
