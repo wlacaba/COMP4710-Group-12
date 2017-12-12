@@ -407,5 +407,3 @@ def clean_data():
                              'release': get_date(release, 1),
                              'revenue': new_revenue})
 
-clean_data()
-

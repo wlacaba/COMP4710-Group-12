@@ -72,29 +72,6 @@ class Node:
         for branch in self.branches:
             print(branch)
 
-    def print_all(self, parent):
-        """
-        PURPOSE
-        Print out all rules of the tree. This is the start of reading the
-        rules and applying them. Will continue to work on. 
-
-        INPUT
-        parent: starting string to add stuff to
-
-        OUTPUT
-        None
-        """
-        branch_length = len(self.branches)
-        curr = parent + "," + self.label + ","
-
-        if branch_length != 0:
-            for i in range(0, branch_length):
-                rule_part = curr + self.branches[i]
-                self.children[i].print_all(rule_part)
-        else:
-            print(curr)
-                
-
     def print_label(self):
         """
         PURPOSE

@@ -37,7 +37,8 @@ class Dataset:
         """
         Remove these because you don't want them as splitting attributes.
         I only included title in the database just in case we need it for
-        the written report, and revenue is the class we want to classify by.
+        the written report (or for printing), and revenue is the class we 
+        want to classify by.
         """
         self.attribute_set = set(reader.fieldnames)
         self.attribute_set.discard('title')
@@ -50,6 +51,7 @@ class Dataset:
                            'genre': row['genre'],
                            'company': row['company']}
 
+            #Just a test
             coin_toss = random.randint(0, 1)
 
             if coin_toss == 0:

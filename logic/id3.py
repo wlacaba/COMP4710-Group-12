@@ -16,6 +16,7 @@ from classes.dataset import Dataset
 from classes.node import Node
 from classes.tree import Tree
 
+TARGET = 'revenue'
 #HELPERS----------------------------------------------------------------------
 
 def init_dataset(database_name):
@@ -58,12 +59,12 @@ def id3_tree(learn_set, attribute_set):
 
     #Check if all revenue values are the same by comparing all of them
     #with the first one. If all the same, algorithm terminates.
-    revenue_class = learn_set[0]['revenue']
+    revenue_class = learn_set[0][TARGET]
     revenue_all_same = True
     list_revenues = []
     
     for movie in learn_set:
-        curr_revenue = movie['revenue']
+        curr_revenue = movie[TARGET]
         list_revenues.append(curr_revenue)
 
         if revenue_class != curr_revenue:
@@ -124,10 +125,10 @@ def find_information_gain(learn_set, attribute_set):
 
     info_gain = 0
     best_attribute = ''
-    info_of_class = calculate_entropy(learn_set, 'revenue')
+    info_of_class = calculate_entropy(learn_set, TARGET)
 
     for attribute in attribute_set:
-        info_of_attribute = calculate_info(learn_set, attribute, 'revenue')
+        info_of_attribute = calculate_info(learn_set, attribute, TARGET)
         new_info_gain = info_of_class - info_of_attribute
         
         if new_info_gain >= info_gain:
@@ -211,40 +212,51 @@ def calculate_info(learn_set, attribute, target_attribute):
 
     return info
 
-def run_id3(database_name):
+def run_id3(database_name, num_trials):
     """
-    Run
+    Loop num_trials times, building a new tree and testing it against the
+    test set of movies.
     """
-    mydata = init_dataset(database_name)
+    total = 0
 
-    decision_tree = Tree(id3_tree(mydata.learn_set, mydata.attribute_set))
-    decision_tree.insert_rules()
+    for x in range(0, num_trials):
 
-    num_correct = 0
+        mydata = init_dataset(database_name)
 
-    for movie in mydata.test_set:
-        for rule in decision_tree.rules:
+        decision_tree = Tree(id3_tree(mydata.learn_set, mydata.attribute_set))
+        decision_tree.insert_rules()
 
-            conditions_met = True
-            key = ''
-            value = ''
-            for i in range(0, len(rule) - 1):
-                if i % 2 == 0:
-                    #Even index, so it's an attribute name
-                    key = rule[i]
-                else:
-                    #Odd index, so it's an attribute value
-                    value = rule[i]
+        num_correct = 0
 
-                    #Check if value is correct
-                    if movie[key] != value:
-                        conditions_met = False
-            
-            if conditions_met:
-                if rule[len(rule) - 1] == movie['revenue']:
-                    num_correct += 1
-    
-    print(str(num_correct))
-    print(str(len(mydata.test_set)))
+        for movie in mydata.test_set:
+            for rule in decision_tree.rules:
 
-run_id3('../data/new_database2.csv') #just testing stuff
+                conditions_met = True
+                key = ''
+                value = ''
+                for i in range(0, len(rule) - 1):
+                    if i % 2 == 0:
+                        #Even index, so it's an attribute name
+                        key = rule[i]
+                    else:
+                        #Odd index, so it's an attribute value
+                        value = rule[i]
+
+                        #Check if value is correct
+                        if movie[key] != value:
+                            conditions_met = False
+                            break;
+                
+                if conditions_met:
+                    if rule[len(rule) - 1] == movie[TARGET]:
+                        num_correct += 1
+                        #End for if we find a rule that correcly classifies movie
+                        break; 
+
+        total += (num_correct/len(mydata.test_set)) * 100
+        
+        print("Test #" + str(x) + ", accuracy = " + 
+              str((num_correct/len(mydata.test_set)*100)))
+
+    total /= num_trials
+    print("Average over " + str(num_trials) + " trials: " + str(total))
