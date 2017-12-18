@@ -1,6 +1,9 @@
 """
 PURPOSE
 Hold the tree root and the list of rules
+
+AUTHOR
+Warren Lacaba
 """
 
 class Tree:
@@ -15,7 +18,7 @@ class Tree:
     def read_in_rules(self, node, parent):
         branch_length = len(node.branches)
         curr = parent + "," + node.label + ","
-
+        
         if branch_length != 0:
             for i in range(0, branch_length):
                 rule_part = curr + node.branches[i]
@@ -23,6 +26,6 @@ class Tree:
         else:
             #There's ',' on each side of the string
             #so it's giving spaces on either end of the list
-            curr = curr[1:len(curr) - 1]
+            curr = curr[1:-1]
             self.rules.append(curr.split(','))
 

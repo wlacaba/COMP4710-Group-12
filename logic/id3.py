@@ -1,5 +1,9 @@
 """
+PURPOSE
 Build the ID3 decision tree here.
+
+AUTHOR
+Warren Lacaba
 """
 import os
 import sys
@@ -220,9 +224,7 @@ def run_id3(database_name, num_trials):
     total = 0
 
     for x in range(0, num_trials):
-
         mydata = init_dataset(database_name)
-
         decision_tree = Tree(id3_tree(mydata.learn_set, mydata.attribute_set))
         decision_tree.insert_rules()
 
@@ -234,24 +236,21 @@ def run_id3(database_name, num_trials):
                 conditions_met = True
                 key = ''
                 value = ''
-                for i in range(0, len(rule) - 1):
-                    if i % 2 == 0:
-                        #Even index, so it's an attribute name
-                        key = rule[i]
-                    else:
-                        #Odd index, so it's an attribute value
-                        value = rule[i]
+                for i in range(0, len(rule) - 1, 2):
+                    #Even index = attribute, odd index = class label
+                    key = rule[i]
+                    value = rule[i + 1]
 
-                        #Check if value is correct
-                        if movie[key] != value:
-                            conditions_met = False
-                            break;
+                    #Check if value is correct
+                    if movie[key] != value:
+                        conditions_met = False
+                        break;
                 
                 if conditions_met:
-                    if rule[len(rule) - 1] == movie[TARGET]:
+                    if rule[-1] == movie[TARGET]:
                         num_correct += 1
-                        #End for if we find a rule that correcly classifies movie
-                        break; 
+                        #End for if we find a rule that correctly classifies movie
+                        break;
 
         total += (num_correct/len(mydata.test_set)) * 100
         
@@ -259,4 +258,4 @@ def run_id3(database_name, num_trials):
               str((num_correct/len(mydata.test_set)*100)))
 
     total /= num_trials
-    print("Average over " + str(num_trials) + " trials: " + str(total))
+    print("Average over " + str(num_trials) + " trials: " + str(total) + "%")

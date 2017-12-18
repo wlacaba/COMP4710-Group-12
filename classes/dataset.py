@@ -1,6 +1,9 @@
 """
 PURPOSE
 Used to store all tuples of (label: value) from the database.
+
+AUTHOR
+Warren Lacaba
 """
 
 import csv
@@ -51,7 +54,6 @@ class Dataset:
                            'genre': row['genre'],
                            'company': row['company']}
 
-            #Just a test
             coin_toss = random.randint(0, 1)
 
             if coin_toss == 0:

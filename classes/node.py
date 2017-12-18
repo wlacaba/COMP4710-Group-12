@@ -1,6 +1,9 @@
 """
 PURPOSE
 Node with no limit on number of children. Used to make a non binary tree.
+
+AUTHOR 
+Warren Lacaba
 """
 
 class Node:
