@@ -10,8 +10,8 @@ INFO ABOUT DATA
 20 Genres
 21 Production Companies (20 + Other)
 12 Release Dates (Months)
-5 Budget Brackets (Increments of 125 million, up to > 500 million)
-5 Revenue Brackets (Increments of 250 million, up to > 1 billion)
+6 Budget Brackets (0, and increments of 125 million, up to > 500 million)
+6 Revenue Brackets (0, and increments of 250 million, up to > 1 billion)
 
 AUTHOR
 Warren Lacaba
@@ -406,4 +406,4 @@ def clean_data():
                              'company': new_company,
                              'release': get_date(release, 1),
                              'revenue': new_revenue})
-
+                             

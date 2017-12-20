@@ -1,0 +1,2226 @@
+prod_budget,company,title,revenue,genre,release,Prediction
+1,Columbia Pictures,Chappie,1,Crime,3,1
+1,Columbia Pictures,Spice World,1,Adventure,12,1
+1,Other,You Only Live Twice,4,Action,6,1
+1,Columbia Pictures,Radio Flyer,1,Drama,2,0
+1,Universal Pictures,Heartbeeps,1,Comedy,12,1
+1,Regency Enterprises,Pushing Tin,0,Comedy,4,1
+1,Fox Searchlight Pictures,Club Dread,1,Comedy,2,1
+0,Universal Pictures,Crooklyn,0,Comedy,5,0
+1,Other,Rebecca,1,Drama,4,1
+1,Other,Finding Forrester,1,Drama,12,1
+1,Other,Little Man,1,Comedy,8,1
+1,Touchstone Pictures,Fright Night,1,Horror,8,1
+1,Other,The Raid,1,Action,9,1
+1,DreamWorks SKG,Letters from Iwo Jima,1,Action,12,1
+1,Other,Dead Man Walking,1,Drama,12,1
+1,Other,Cheri,1,Drama,2,1
+1,Other,The Expendables 2,2,Action,8,1
+1,Paramount Pictures,Star Trek V: The Final Frontier,1,Science Fiction,6,1
+2,Other,Toy Story 2,3,Animation,10,2
+1,Other,Paranormal Activity: The Marked Ones,1,Horror,1,1
+1,Other,The Expendables,2,Thriller,8,0
+1,Other,Let's Kill Ward's Wife,0,Comedy,12,1
+1,Universal Pictures,Southland Tales,1,Action,5,1
+0,Other,The Claim,0,Drama,12,0
+1,Other,Oculus,1,Horror,9,1
+2,Other,The Greatest Story Ever Told,1,Drama,2,1
+1,Miramax Films,The Thief and the Cobbler,1,Adventure,9,1
+1,Village Roadshow Pictures,Cats & Dogs 2 : The Revenge of Kitty Galore,1,Comedy,7,1
+1,The Weinstein Company,I Don't Know How She Does It,1,Romance,9,1
+1,Other,A Haunted House,1,Comedy,1,1
+1,Other,Invictus,1,Drama,12,1
+1,Miramax Films,An Ideal Husband,1,Drama,4,1
+1,Other,Veronica Guerin,1,Drama,7,1
+0,Other,Oceans,1,Documentary,10,0
+1,Other,Mambo Italiano,1,Comedy,6,1
+1,Warner Bros.,The Pelican Brief,2,Drama,12,1
+0,Other,The Bubble,0,Drama,6,0
+1,Other,Basic Instinct 2,1,Crime,3,1
+1,Other,Mirrormask,1,Fantasy,1,1
+1,Paramount Pictures,10 Cloverfield Lane,1,Thriller,3,1
+2,Other,Star Wars: Episode II - Attack of the Clones,4,Adventure,5,4
+1,Other,The Triplets of Belleville,1,Adventure,6,1
+1,Columbia Pictures,Hollywood Homicide,1,Action,6,1
+1,Columbia Pictures,All the Pretty Horses,0,Drama,12,1
+1,Other,Deuce Bigalow: Male Gigolo,1,Comedy,12,1
+0,Other,What the #$*! Do We (K)now!?,1,Documentary,4,0
+1,Summit Entertainment,Knowing,1,Action,3,4
+1,Other,Insidious: Chapter 2,0,Horror,9,1
+1,Other,Dallas Buyers Club,1,Drama,9,1
+1,New Line Cinema,The Long Kiss Goodnight,1,Crime,10,1
+1,Other,Corpse Bride,1,Romance,9,1
+1,Columbia Pictures,Zoom,1,Family,8,1
+1,New Line Cinema,The Butterfly Effect,1,Science Fiction,1,1
+1,Columbia Pictures,It Happened One Night,1,Comedy,2,2
+1,Other,Orgazmo,0,Comedy,9,1
+1,Other,Spun,0,Comedy,6,1
+1,Other,Hostel,1,Horror,1,1
+1,Other,Premium Rush,1,Crime,8,1
+1,Other,Birth,0,Drama,9,1
+1,Touchstone Pictures,Pretty Woman,4,Romance,3,0
+2,Other,Casino Royale,3,Adventure,11,5
+1,Universal Pictures,Conan the Barbarian,1,Adventure,4,1
+0,Columbia Pictures,Stepmom,0,Drama,12,0
+1,Other,A Cinderella Story,1,Comedy,7,1
+1,Other,Secret in Their Eyes,1,Crime,10,0
+1,Other,Red Tails,1,Drama,1,1
+0,Other,The Square,0,Documentary,6,0
+2,Warner Bros.,The Perfect Storm,2,Drama,3,1
+1,Other,The Place Beyond the Pines,1,Drama,3,1
+1,Miramax Films,Adventureland,1,Comedy,4,2
+1,Other,Code of Honor,0,Action,5,1
+1,Twentieth Century Fox Film Corporation,The Internship,1,Comedy,6,1
+0,Other,Caramel,0,Drama,7,0
+1,Other,The Bucket List,1,Drama,12,1
+0,New Line Cinema,Bamboozled,0,Comedy,10,0
+1,Columbia Pictures,A League of Their Own,1,Comedy,7,1
+1,Other,Renaissance Man,1,Comedy,6,1
+1,Other,Six Days Seven Nights,1,Action,6,1
+1,Other,Barbecue,1,Comedy,4,1
+1,Universal Pictures,Pride & Prejudice,1,Drama,9,1
+1,Other,The Fog,1,Horror,2,0
+1,Other,Harry Brown,1,Thriller,11,0
+0,Other,Ghost Dog: The Way of the Samurai,0,Crime,9,0
+1,Other,Stake Land,1,Drama,9,1
+1,Paramount Pictures,Ben-Hur,1,Drama,8,1
+1,Other,All Is Lost,1,Action,10,1
+1,TriStar Pictures,88 Minutes,1,Crime,2,1
+1,Other,The Words,1,Drama,9,1
+1,Other,Transamerica,1,Drama,12,1
+0,Other,Crying with Laughter,0,Comedy,6,0
+1,Other,Braveheart,2,Action,5,1
+0,Other,Frances Ha,1,Comedy,5,0
+1,Other,Woodstock,1,History,3,1
+1,Other,The Evil Dead,1,Horror,10,1
+1,Twentieth Century Fox Film Corporation,Commando,1,Action,10,1
+1,Other,Boogeyman,1,Thriller,2,1
+1,Columbia Pictures,Fury,1,War,10,2
+1,The Weinstein Company,The Grandmaster,1,Action,1,1
+1,Other,Coraline,1,Animation,2,5
+0,Paramount Pictures,Scrooged,1,Fantasy,11,1
+2,DreamWorks SKG,Cast Away,3,Adventure,12,3
+1,Other,The Musketeer,1,Action,9,1
+1,Other,G.I. Jane,1,Action,8,1
+2,Walt Disney Pictures,The Hunchback of Notre Dame,1,Drama,6,4
+1,Universal Pictures,Tower Heist,1,Action,11,1
+1,Fox Searchlight Pictures,I Think I Love My Wife,1,Comedy,3,1
+1,Other,American Graffiti,4,Comedy,8,1
+1,Other,Before Midnight,1,Romance,4,1
+0,Other,Rodeo Girl,0,Family,1,0
+0,Other,I Am Love,0,Drama,9,0
+1,Walt Disney Pictures,Flubber,2,Comedy,11,1
+1,United Artists,On Her Majesty's Secret Service,3,Adventure,12,4
+1,Universal Pictures,U-571,1,Action,4,1
+1,Warner Bros.,Police Academy,2,Comedy,3,1
+1,Other,Fever Pitch,1,Comedy,4,1
+1,Paramount Pictures,Vampire in Brooklyn,1,Comedy,10,1
+1,Other,The Princess Bride,1,Adventure,9,1
+1,Columbia Pictures,Extreme Measures,1,Drama,9,2
+1,Other,The Immigrant,1,Drama,7,1
+1,Other,Monte Carlo,1,Adventure,7,1
+0,Other,Poultrygeist: Night of the Chicken Dead,0,Horror,12,0
+1,Other,Brooklyn,1,Drama,10,1
+1,United Artists,Modern Times,1,Drama,2,2
+1,Other,Bambi,5,Animation,8,0
+0,Touchstone Pictures,Double Take,0,Adventure,1,0
+1,Other,Metallica: Through the Never,1,Music,9,1
+1,Twentieth Century Fox Film Corporation,Shallow Hal,1,Comedy,11,3
+0,Other,Standard Operating Procedure,0,Documentary,2,0
+2,Other,Live Free or Die Hard,2,Action,6,2
+1,Walt Disney Pictures,Pete's Dragon,1,Adventure,8,0
+1,Twentieth Century Fox Film Corporation,Damnation Alley,1,Action,9,2
+1,Other,What Just Happened,1,Comedy,10,1
+1,Other,Return to Oz,1,Adventure,6,1
+0,Other,Out of Inferno,0,Action,3,0
+0,Other,DysFunktional Family,0,Comedy,4,0
+1,Other,Please Give,0,Comedy,1,1
+2,New Line Cinema,Jack the Giant Slayer,1,Action,2,2
+1,Columbia Pictures,Cruel Intentions,1,Drama,3,1
+1,Other,Babel,1,Drama,9,1
+1,Other,The 33,1,Drama,8,1
+1,Other,Racing Stripes,1,Comedy,1,1
+1,TriStar Pictures,Glory,1,War,12,2
+0,Other,Baghead,0,Drama,1,0
+1,Other,Thunderball,5,Adventure,12,1
+1,Other,Seven Samurai,1,Action,4,1
+1,Other,Blindness,1,Drama,5,1
+1,Regency Enterprises,Under Siege 2: Dark Territory,1,Action,7,1
+3,Walt Disney Pictures,Pirates of the Caribbean: At World's End,5,Adventure,5,3
+1,Universal Pictures,The Adventures of Rocky & Bullwinkle,1,Action,6,2
+1,Universal Pictures,The Fast and the Furious: Tokyo Drift,1,Action,6,2
+0,Other,The Calling,0,Thriller,8,0
+1,Other,DOA: Dead or Alive,1,Adventure,9,1
+1,Walt Disney Pictures,Teacher's Pet,0,Animation,1,1
+0,Other,The Man in the Iron Mask,0,Action,3,0
+1,Walt Disney Pictures,Confessions of a Teenage Drama Queen,1,Comedy,2,1
+1,Other,Queen Crab,0,Science Fiction,9,1
+1,Metro-Goldwyn-Mayer (MGM),Poltergeist III,1,Horror,6,1
+0,Other,Out of the Dark,0,Thriller,8,0
+0,Other,Zipper,0,Thriller,8,0
+1,Other,How to Lose Friends & Alienate People,1,Comedy,10,1
+1,New Line Cinema,Wag the Dog,1,Comedy,12,1
+1,Other,The Spy Next Door,1,Action,1,1
+1,Other,A Most Violent Year,1,Crime,12,0
+1,Universal Pictures,Silent Running,0,Adventure,3,1
+1,Miramax Films,The Pallbearer,0,Comedy,5,1
+0,Twentieth Century Fox Film Corporation,Kung Pow: Enter the Fist,0,Action,1,1
+1,Other,Troll Hunter,1,Fantasy,10,1
+1,Metro-Goldwyn-Mayer (MGM),Show Boat,1,Music,7,1
+0,Other,Velvet Goldmine,1,Drama,10,0
+1,Other,Free Birds,1,Animation,10,1
+2,Other,Batman Returns,2,Action,6,2
+1,Universal Pictures,The Bourne Identity,2,Action,6,2
+1,Paramount Pictures,Hardball,1,Comedy,9,0
+0,Other,The Skeleton Twins,1,Drama,1,0
+1,Twentieth Century Fox Film Corporation,Hide and Seek,1,Horror,1,1
+1,Universal Pictures,Seabiscuit,1,Drama,7,1
+1,The Weinstein Company,Piranha 3D,1,Comedy,8,1
+2,Other,The Hunger Games: Mockingjay - Part 2,3,Action,11,2
+1,Other,In the Name of the King: A Dungeon Siege Tale,0,Adventure,11,1
+1,Other,Hands of Stone,0,Drama,8,1
+1,Twentieth Century Fox Film Corporation,Street Fighter: The Legend of Chun-Li,1,Action,2,4
+1,Paramount Pictures,Young Adult,1,Comedy,12,0
+1,Other,Miracle,1,Drama,2,1
+1,Other,The Grudge,1,Horror,10,1
+1,Columbia Pictures,The American President,1,Comedy,11,0
+0,Other,Warlock: The Armageddon,0,Fantasy,5,0
+0,Other,The Last Big Thing,0,Comedy,9,0
+1,Other,Escape from Tomorrow,0,Horror,10,1
+1,Columbia Pictures,Talladega Nights: The Ballad of Ricky Bobby,1,Comedy,8,1
+1,Other,I Am Wrath,0,Action,4,1
+1,Other,Drive,1,Drama,8,1
+1,Other,Escape from Planet Earth,1,Animation,2,5
+1,Other,Woman in Gold,1,Drama,4,1
+1,Other,Love & Basketball,1,Action,4,1
+1,Universal Pictures,E.T. the Extra-Terrestrial,5,Science Fiction,4,1
+1,Other,Hobo with a Shotgun,1,Action,5,1
+1,New Line Cinema,The Texas Chainsaw Massacre: The Beginning,0,Horror,10,1
+1,Other,Left Behind,1,Thriller,10,0
+1,Other,Blazing Saddles,3,Western,2,0
+1,Other,The Bounty,1,Action,5,1
+2,Other,The Patriot,2,Drama,6,3
+1,Other,Platoon,2,Drama,12,1
+1,Universal Pictures,Death Race,1,Action,8,1
+2,Columbia Pictures,Men in Black II,3,Action,7,2
+1,Other,8 Mile,2,Drama,11,1
+1,Other,The Covenant,1,Action,9,1
+1,United Artists,Hang 'em High,1,Western,7,1
+1,Summit Entertainment,Never Back Down,1,Drama,3,1
+0,Touchstone Pictures,Cradle Will Rock,0,Drama,12,0
+1,Twentieth Century Fox Film Corporation,High Anxiety,1,Comedy,12,2
+1,Other,Bang Bang Baby,0,Science Fiction,9,1
+1,United Artists,Jeepers Creepers 2,1,Horror,8,2
+1,New Line Cinema,Spawn,1,Action,7,1
+0,Other,The Sound and the Shadow,0,Thriller,10,0
+1,Twentieth Century Fox Film Corporation,The French Connection,1,Action,10,1
+1,Columbia Pictures,Muppets from Space,1,Fantasy,7,2
+1,Other,Slackers,1,Comedy,2,1
+1,Other,One for the Money,1,Action,1,1
+0,Paramount Pictures,Darling Lili,0,Drama,1,0
+1,Other,The Signal,1,Thriller,3,1
+1,Other,Ice Age: Dawn of the Dinosaurs,5,Animation,6,1
+1,Paramount Pictures,The Firm,2,Drama,6,2
+0,Other,Abandoned,0,Drama,8,0
+1,The Weinstein Company,Vicky Cristina Barcelona,1,Drama,8,0
+1,Other,Shanghai Noon,1,Adventure,5,1
+1,Regency Enterprises,Joe Somebody,0,Comedy,12,1
+1,Other,Porky's,2,Comedy,11,1
+1,Summit Entertainment,Wrong Turn,1,Horror,5,1
+1,Twentieth Century Fox Film Corporation,Patton,3,Drama,1,1
+0,Other,Evil Words,0,Horror,10,0
+0,Miramax Films,The Shipping News,0,Drama,12,0
+1,Village Roadshow Pictures,The Dukes of Hazzard,1,Action,8,1
+1,Miramax Films,Flirting with Disaster,1,Comedy,3,1
+1,The Weinstein Company,Clerks II,1,Comedy,5,1
+1,Other,Attack the Block,1,Action,5,1
+2,Other,Batman Begins,2,Action,6,2
+1,Universal Pictures,How High,1,Comedy,12,1
+1,Walt Disney Pictures,Prom,1,Comedy,4,0
+1,Other,Double Impact,1,Thriller,8,0
+1,United Artists,The Long Riders,1,Western,5,1
+1,Other,Begin Again,1,Comedy,9,1
+1,Other,Hereafter,1,Drama,10,1
+1,Universal Pictures,The Bourne Ultimatum,3,Action,8,1
+1,Other,Precious,1,Drama,11,1
+1,Walt Disney Pictures,The Santa Clause,2,Fantasy,11,4
+1,New Line Cinema,Austin Powers: International Man of Mystery,1,Science Fiction,5,1
+1,Universal Pictures,The Last Temptation of Christ,1,Drama,8,1
+1,Other,There Goes My Baby,1,Drama,9,1
+1,Other,Bandits,1,Action,10,1
+0,Other,The Visitors II: The Corridors of Time,0,Comedy,2,0
+1,Other,Digimon: The Movie,0,Fantasy,3,1
+1,Other,The Best Exotic Marigold Hotel,1,Drama,11,1
+1,Walt Disney Pictures,Race to Witch Mountain,1,Adventure,3,0
+1,Other,Very Bad Things,1,Comedy,9,1
+1,Other,The Passion of the Christ,4,Drama,2,1
+1,Other,Alex & Emma,1,Comedy,6,1
+1,Other,Take Shelter,1,Thriller,11,0
+1,Other,Machine Gun Preacher,1,Action,9,1
+3,Other,Superman Returns,2,Adventure,6,5
+1,New Line Cinema,Straight Outta Compton,1,Drama,8,1
+1,Other,Subway,1,Action,4,1
+1,Other,Bodyguards and Assassins,1,Drama,12,1
+1,Twentieth Century Fox Film Corporation,Baby's Day Out,1,Action,7,1
+1,Universal Pictures,Lucy,1,Action,7,2
+1,Touchstone Pictures,Swing Vote,1,Drama,8,1
+0,Other,The Widow of Saint-Pierre,0,Romance,1,0
+1,United Artists,The Spy Who Loved Me,3,Adventure,7,4
+1,New Line Cinema,Creed,1,Drama,11,1
+1,Universal Pictures,The Andromeda Strain,1,Science Fiction,3,1
+1,Columbia Pictures,Goosebumps,1,Adventure,8,1
+0,Other,Containment,0,Thriller,7,0
+1,Other,Silent House,1,Horror,1,1
+1,Other,Mirror Mirror,1,Adventure,3,1
+2,Village Roadshow Pictures,Speed Racer,1,Action,5,3
+1,Universal Pictures,White Noise,1,Drama,1,1
+1,Columbia Pictures,Captain Phillips,1,Action,10,1
+3,Other,The Dark Knight Rises,5,Action,7,3
+2,Columbia Pictures,Spider-Man,5,Fantasy,5,2
+1,New Line Cinema,After the Sunset,1,Action,11,1
+1,Other,Solitary Man,1,Comedy,9,1
+1,Other,Hachi: A Dog's Tale,1,Drama,6,1
+1,Other,The Road,1,Adventure,11,1
+1,Other,Imaginary Heroes,0,Comedy,9,1
+0,Other,Gangster's Paradise: Jerusalema,0,Drama,2,0
+1,Twentieth Century Fox Film Corporation,Alien,2,Horror,5,1
+1,TriStar Pictures,Mrs. Winterbourne,1,Comedy,4,1
+1,Other,The Exorcism of Emily Rose,1,Crime,9,1
+1,Touchstone Pictures,Surrogates,1,Action,9,1
+1,Other,Jumper,2,Adventure,2,0
+2,DreamWorks SKG,What Lies Beneath,1,Drama,7,3
+1,Twentieth Century Fox Film Corporation,Big Trouble in Little China,1,Action,5,1
+1,Miramax Films,The Hoax,1,Comedy,10,1
+1,Twentieth Century Fox Film Corporation,Edward Scissorhands,1,Fantasy,12,1
+1,Other,Resident Evil: Extinction,1,Horror,9,1
+0,Other,Censored Voices,0,History,1,0
+0,Other,Fruitvale Station,1,Drama,7,0
+1,Regency Enterprises,The Devil's Advocate,1,Drama,10,1
+1,Twentieth Century Fox Film Corporation,Idiocracy,1,Adventure,9,1
+1,New Line Cinema,17 Again,1,Comedy,3,1
+0,Miramax Films,The Night Listener,0,Drama,2,0
+1,Other,The Informers,1,Drama,11,1
+2,Other,Mr. Peabody & Sherman,2,Animation,2,2
+1,Columbia Pictures,All the King's Men,1,Drama,9,2
+1,Other,Down in the Valley,1,Drama,5,1
+1,Miramax Films,Sling Blade,1,Drama,8,1
+0,Other,It's a Wonderful Afterlife,0,Comedy,5,0
+1,United Artists,Annie Hall,1,Comedy,4,1
+1,Other,Becoming Jane,1,Drama,3,1
+2,Other,Around the World in 80 Days,1,Action,6,2
+1,Other,The Imitation Game,1,History,11,1
+1,Touchstone Pictures,Raising Helen,1,Drama,5,1
+0,Other,Miss March,0,Comedy,3,0
+1,Other,Escobar: Paradise Lost,1,Thriller,10,0
+1,Other,Unbreakable,2,Science Fiction,11,1
+0,Other,Bizarre,0,Drama,2,0
+1,Walt Disney Pictures,The Lizzie McGuire Movie,1,Family,4,0
+1,Other,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1,Drama,1,1
+1,Other,May,1,Drama,1,1
+1,Twentieth Century Fox Film Corporation,Alatriste,1,Action,9,2
+1,United Artists,Road House,1,Action,5,1
+1,Other,Open Season,1,Adventure,9,1
+1,Warner Bros.,The Charge of the Light Brigade,1,Action,10,0
+1,Other,The 5th Quarter,1,Drama,3,1
+1,Other,5 Days of War,1,War,4,0
+1,DreamWorks SKG,Flags of Our Fathers,1,War,10,1
+1,Columbia Pictures,Riding in Cars with Boys,1,Comedy,10,1
+0,Warner Bros.,Pale Rider,1,Romance,6,1
+1,Other,Party Monster,1,Comedy,9,1
+1,Other,Scary Movie 2,1,Comedy,7,1
+3,Warner Bros.,Harry Potter and the Half-Blood Prince,5,Adventure,7,3
+1,Other,Agent Cody Banks,1,Action,3,1
+1,Walt Disney Pictures,Ice Princess,1,Drama,3,1
+1,Universal Pictures,Kick-Ass 2,1,Action,7,2
+1,Other,Radio,1,Drama,10,1
+1,Twentieth Century Fox Film Corporation,Anywhere But Here,1,Drama,11,1
+1,Other,The Specialist,2,Action,10,1
+0,Other,Juliet and Alfa Romeo,0,Comedy,9,0
+1,Other,To Write Love on Her Arms,0,Drama,3,1
+1,Other,Gone with the Wind,5,Drama,12,1
+1,Other,Much Ado About Nothing,0,Drama,5,1
+0,Other,The Blue Room,0,Drama,5,0
+1,Other,Deconstructing Harry,1,Comedy,8,1
+2,Other,Die Another Day,3,Adventure,11,5
+1,Other,Latter Days,1,Drama,7,1
+1,Other,The Express,1,Drama,10,1
+1,Other,Orphan,1,Horror,7,1
+1,Other,This Is 40,1,Comedy,12,1
+0,Other,A Charlie Brown Christmas,0,Animation,12,0
+1,Other,The Boondock Saints,1,Action,1,1
+1,United Artists,The First Great Train Robbery,0,Thriller,1,1
+0,New Line Cinema,The Adventures of Pinocchio,0,Animation,7,0
+0,Columbia Pictures,Troop Beverly Hills,0,Adventure,3,0
+1,Paramount Pictures,Shutter Island,2,Drama,2,1
+1,United Artists,West Side Story,2,Crime,10,2
+1,Columbia Pictures,Silverado,0,Action,7,2
+1,Summit Entertainment,Divergent,2,Adventure,3,4
+1,TriStar Pictures,Money Monster,1,Thriller,5,1
+1,Other,The Good Heart,0,Drama,9,1
+1,New Line Cinema,The Conjuring,2,Horror,7,1
+1,Other,Marie Antoinette,1,Drama,5,1
+1,Other,The Nutcracker: The Untold Story,1,Fantasy,11,1
+1,Other,Tidal Wave,1,Action,6,1
+1,Universal Pictures,The Scorpion King,1,Action,4,1
+0,Other,Deterrence,0,Action,3,0
+1,Other,The Kentucky Fried Movie,0,Comedy,8,1
+1,Universal Pictures,Bruce Almighty,3,Fantasy,5,1
+1,Warner Bros.,The Ballad of Cable Hogue,1,Action,5,1
+1,Other,The Invention of Lying,1,Comedy,9,1
+1,Fox Searchlight Pictures,Thank You for Smoking,1,Comedy,9,0
+1,Other,The Spanish Apartment,1,Drama,5,1
+0,Other,The Lost Skeleton of Cadavra,0,Comedy,9,0
+1,Warner Bros.,August Rush,1,Drama,11,1
+1,Touchstone Pictures,Play It to the Bone,1,Comedy,12,1
+0,Other,Chasing Papi,1,Comedy,4,0
+1,Other,Another Year,1,Comedy,11,1
+1,Other,Baahubali: The Beginning,1,Action,7,0
+0,Other,Bully,1,Crime,6,0
+1,United Artists,The Rage: Carrie 2,1,Horror,3,1
+0,The Weinstein Company,Who's Your Caddy?,0,Comedy,7,1
+1,Other,Getaway,1,Action,8,1
+1,Other,Opal Dream,1,Drama,11,1
+1,Universal Pictures,Green Zone,1,War,3,1
+0,DreamWorks SKG,The Tuxedo,0,Thriller,9,0
+1,Other,Pink Narcissus,0,Drama,1,1
+1,Other,All or Nothing,0,Comedy,5,1
+2,Other,The Lord of the Rings: The Fellowship of the Ring,5,Adventure,12,3
+1,Columbia Pictures,La Bamba,1,Drama,7,1
+1,Other,Mr. Bean's Holiday,2,Family,3,1
+2,Other,How the Grinch Stole Christmas,2,Family,11,2
+3,Columbia Pictures,Spectre,4,Action,10,5
+1,Other,Cyrus,0,Comedy,6,1
+1,Columbia Pictures,That's My Boy,1,Comedy,6,1
+1,DreamWorks SKG,Antz,2,Adventure,10,1
+1,Other,Law Abiding Citizen,1,Drama,10,1
+1,Columbia Pictures,Blue Streak,1,Action,9,1
+1,Other,Free State of Jones,1,War,6,0
+1,Other,Arn: The Knight Templar,0,Action,12,1
+0,Other,Maria Full of Grace,0,Drama,1,0
+1,Other,It's a Wonderful Life,1,Drama,12,1
+1,Twentieth Century Fox Film Corporation,Aliens in the Attic,1,Adventure,7,0
+1,Other,Apollo 18,1,Horror,7,1
+1,Other,Man on the Moon,1,Comedy,12,1
+1,Columbia Pictures,The Holiday,1,Comedy,12,1
+2,Walt Disney Pictures,Cars,3,Animation,6,3
+1,Universal Pictures,Back to the Future Part II,3,Adventure,11,1
+2,Walt Disney Pictures,"Monsters, Inc.",4,Animation,11,2
+1,Other,Hustle & Flow,1,Drama,7,1
+1,Paramount Pictures,The General's Daughter,1,Crime,6,1
+1,Miramax Films,Bridget Jones: The Edge of Reason,1,Comedy,11,1
+1,Other,FearDotCom,1,Horror,8,1
+0,Other,Stick It,0,Comedy,4,0
+0,Other,Born Of War,0,Action,12,0
+1,Other,Over the Hedge,2,Comedy,4,1
+0,Other,Brighton Rock,0,Drama,9,0
+1,Other,Deceptive Practice: The Mysteries and Mentors of Ricky Jay,0,Documentary,10,1
+1,New Line Cinema,Teenage Mutant Ninja Turtles II: The Secret of the Ooze,1,Science Fiction,3,1
+0,Other,Madadayo,0,Drama,4,0
+2,Other,Pearl Harbor,3,History,5,4
+0,Other,Nowhere Boy,0,Drama,12,0
+1,New Line Cinema,About Schmidt,1,Drama,12,1
+1,New Line Cinema,Raise Your Voice,1,Music,8,1
+1,Universal Pictures,The Boss,1,Comedy,4,1
+1,Paramount Pictures,Star Trek: First Contact,1,Science Fiction,11,1
+1,Paramount Pictures,Bringing Out the Dead,0,Drama,10,1
+1,TriStar Pictures,The Big Hit,1,Action,4,1
+1,Regency Enterprises,Alvin and the Chipmunks: The Squeakquel,3,Comedy,12,1
+1,Other,U2 3D,1,Music,5,0
+1,Columbia Pictures,Moneyball,1,Drama,9,2
+1,Universal Pictures,Back to the Future,4,Adventure,7,1
+0,Other,Close Range,0,Crime,12,0
+1,Regency Enterprises,Mirrors,1,Horror,8,1
+1,Miramax Films,Undisputed,1,Action,8,1
+0,Other,Snow Angels,1,Drama,3,0
+1,Other,The Fault in Our Stars,2,Romance,5,1
+1,Other,A LEGO Brickumentary,0,Documentary,7,1
+1,New Line Cinema,The Time Traveler's Wife,1,Drama,8,1
+1,Walt Disney Pictures,Return to Never Land,1,Adventure,2,1
+1,Twentieth Century Fox Film Corporation,The Robe,2,Drama,9,1
+0,Other,The Singing Detective,0,Comedy,10,0
+2,Walt Disney Pictures,A Bug's Life,3,Adventure,11,2
+1,New Line Cinema,Keanu,1,Action,4,1
+1,Other,Trapeze,1,Drama,5,1
+0,Other,Passchendaele,0,Drama,10,0
+1,Metro-Goldwyn-Mayer (MGM),The Valley of Decision,1,Drama,6,1
+1,Paramount Pictures,Stardust,1,Adventure,8,3
+1,Paramount Pictures,Airplane!,1,Comedy,7,0
+1,Other,My Big Fat Greek Wedding,3,Comedy,2,1
+0,Other,Among Giants,0,Comedy,6,0
+0,Universal Pictures,Because I Said So,1,Comedy,2,1
+1,Fox Searchlight Pictures,Choke,1,Comedy,9,0
+1,Other,Courage Under Fire,1,Drama,7,1
+0,Other,Waiting for Guffman,0,Music,1,0
+1,Other,Florence Foster Jenkins,1,Comedy,5,1
+1,The Weinstein Company,Awake,1,Thriller,11,1
+1,Twentieth Century Fox Film Corporation,The Egyptian,1,History,8,3
+1,Other,Dressed to Kill,1,Horror,6,2
+1,Universal Pictures,Forgetting Sarah Marshall,1,Comedy,4,1
+0,Regency Enterprises,Shutter,0,Horror,3,1
+1,Columbia Pictures,Vertical Limit,2,Action,12,1
+2,Other,Windtalkers,1,Drama,6,3
+1,Other,Dragon Blade,1,Action,2,1
+1,Other,An American Carol,1,Comedy,10,1
+1,Universal Pictures,Nanny McPhee,1,Fantasy,10,1
+1,Other,An Inconvenient Truth,1,Documentary,1,1
+0,Lions Gate Films,Diary of a Mad Black Woman,0,Comedy,2,1
+1,Lions Gate Films,Gods and Monsters,1,Drama,1,1
+1,Paramount Pictures,How to Lose a Guy in 10 Days,1,Comedy,2,1
+1,Twentieth Century Fox Film Corporation,The Other Woman,1,Comedy,4,1
+0,Other,Travellers and Magicians,0,Adventure,9,0
+1,Other,A Walk to Remember,1,Drama,1,1
+0,Columbia Pictures,Jakob the Liar,0,Comedy,9,0
+1,Columbia Pictures,22 Jump Street,1,Crime,6,1
+1,Other,"The Good, The Bad, The Weird",0,Action,7,0
+1,Other,54,1,Music,8,0
+0,Paramount Pictures,Crocodile Dundee II,2,Adventure,5,0
+1,Other,Another Earth,1,Drama,7,1
+0,United Artists,Gabriela,0,Drama,3,0
+1,Other,Steamboy,0,Animation,7,1
+0,Other,The Man from Earth,0,Science Fiction,6,0
+1,Paramount Pictures,The Golden Child,1,Action,12,0
+1,Warner Bros.,The Exorcist,5,Drama,12,1
+1,Other,Bride Wars,1,Comedy,1,1
+0,Other,House at the End of the Drive,0,Thriller,1,0
+0,Other,Thr3e,0,Drama,12,0
+1,Twentieth Century Fox Film Corporation,Cheaper by the Dozen 2,1,Comedy,12,2
+2,Other,Bicentennial Man,1,Comedy,12,2
+1,Other,Our Brand Is Crisis,1,Comedy,9,1
+1,Paramount Pictures,Face/Off,2,Action,6,1
+2,Paramount Pictures,Lara Croft Tomb Raider: The Cradle of Life,1,Action,7,2
+1,Other,Running Scared,1,Action,1,1
+1,New Line Cinema,Mortal Kombat,1,Action,8,2
+1,Other,Little Shop of Horrors,1,Horror,12,1
+1,Fox Searchlight Pictures,Black Nativity,1,Drama,11,1
+0,Paramount Pictures,Varsity Blues,0,Comedy,1,0
+0,Other,On The Downlow,0,Drama,4,0
+1,Summit Entertainment,Letters to Juliet,0,Comedy,5,1
+0,Other,The Toxic Avenger Part II,0,Comedy,2,0
+1,Village Roadshow Pictures,License to Wed,1,Comedy,7,1
+1,Other,Disaster Movie,1,Action,8,1
+1,Twentieth Century Fox Film Corporation,Meet Dave,1,Comedy,7,2
+1,Twentieth Century Fox Film Corporation,Bedazzled,1,Fantasy,10,1
+0,Other,Listening,0,Drama,9,0
+2,Other,Mission to Mars,1,Science Fiction,3,1
+1,Paramount Pictures,Rosemary's Baby,1,Horror,6,1
+1,Other,The Son of No One,0,Drama,11,1
+1,DreamWorks SKG,Things We Lost in the Fire,1,Drama,9,1
+1,Other,Hoop Dreams,1,Documentary,9,1
+1,Other,Criminal Activities,0,Thriller,11,0
+0,Walt Disney Pictures,Pooh's Heffalump Movie,0,Animation,2,1
+1,Other,Nightcrawler,1,Crime,10,0
+1,Lionsgate,Pride and Prejudice and Zombies,1,Romance,2,0
+1,Other,The Constant Gardener,1,Drama,8,1
+0,Other,The Last Station,0,Drama,9,0
+0,Universal Pictures,Snow Falling on Cedars,0,Drama,12,0
+1,Paramount Pictures,The SpongeBob SquarePants Movie,1,Animation,11,1
+1,Columbia Pictures,The Craft,1,Drama,5,1
+1,Miramax Films,Princess Mononoke,1,Adventure,7,1
+1,Other,Detention of the Dead,0,Comedy,4,1
+1,Fox Searchlight Pictures,Slumdog Millionaire,2,Drama,5,1
+1,Walt Disney Pictures,Beverly Hills Chihuahua,1,Adventure,10,0
+1,Village Roadshow Pictures,Ocean's Thirteen,2,Crime,6,1
+1,Fox Searchlight Pictures,Our Family Wedding,1,Comedy,3,1
+1,Other,Howard the Duck,1,Comedy,8,1
+0,Columbia Pictures,Here Comes the Boom,1,Comedy,10,0
+1,DreamWorks SKG,Old School,1,Comedy,2,1
+1,Other,Murder by Numbers,1,Crime,4,0
+1,Columbia Pictures,The Last Emperor,1,Drama,10,1
+2,Twentieth Century Fox Film Corporation,X-Men: Apocalypse,3,Science Fiction,5,2
+1,Other,Ace Ventura: When Nature Calls,2,Crime,11,1
+1,Paramount Pictures,Little Fockers,2,Comedy,12,0
+0,Other,Train,0,Horror,10,0
+0,Other,Checkmate,0,Thriller,7,0
+1,Other,"I Love You, Beth Cooper",0,Comedy,7,1
+0,Other,Howards End,1,Drama,3,0
+1,Columbia Pictures,Superbad,1,Comedy,8,1
+1,Other,Beginners,1,Drama,9,1
+1,Other,The Act of Killing,1,Documentary,8,1
+1,New Line Cinema,Appaloosa,1,Drama,9,1
+1,New Line Cinema,Horrible Bosses,1,Comedy,7,2
+1,Other,Elizabeth,1,Drama,9,1
+1,Miramax Films,Chasing Amy,1,Comedy,4,2
+1,Fox Searchlight Pictures,The Grand Budapest Hotel,1,Comedy,2,1
+1,Other,Baggage Claim,1,Comedy,9,1
+1,Other,Earth to Echo,1,Family,6,1
+1,Other,Killing Zoe,1,Action,10,1
+1,Other,Two Can Play That Game,0,Comedy,9,1
+2,Paramount Pictures,Terminator Genisys,2,Science Fiction,6,4
+1,Paramount Pictures,The Wolf of Wall Street,2,Crime,12,1
+1,Lionsgate,The Cabin in the Woods,1,Horror,4,1
+1,New Line Cinema,The Notebook,1,Romance,6,1
+1,Fox Searchlight Pictures,She's the One,1,Comedy,8,0
+1,Universal Pictures,The Sting,4,Comedy,12,1
+1,Columbia Pictures,30 Minutes or Less,1,Action,8,1
+0,Columbia Pictures,The Pink Panther,0,Action,1,0
+1,Universal Pictures,Smokin' Aces,1,Action,12,1
+1,Other,Sunshine,1,Science Fiction,4,2
+1,DreamWorks SKG,Amistad,1,Drama,12,1
+1,Other,Rock Star,1,Music,9,1
+1,United Artists,Red River,1,Western,8,1
+1,Universal Pictures,Honey,1,Romance,11,1
+0,Other,Adam,1,Drama,7,0
+1,Other,Mary Poppins,4,Comedy,8,1
+1,Other,Killer Elite,1,Action,9,1
+1,Other,The Lords of Salem,1,Horror,9,1
+0,Other,Michael Jordan to the Max,1,Documentary,5,1
+1,Other,Last Vegas,1,Comedy,10,1
+1,Other,Toy Story,3,Animation,10,1
+1,Universal Pictures,The 40 Year Old Virgin,1,Comedy,8,2
+2,Village Roadshow Pictures,The Adventures of Pluto Nash,1,Action,8,2
+1,Other,Home Run,1,Drama,4,1
+0,Other,Topsy-Turvy,0,Comedy,9,0
+1,Columbia Pictures,Walk Hard: The Dewey Cox Story,1,Comedy,12,1
+1,DreamWorks SKG,Hollywood Ending,0,Comedy,5,2
+1,Other,Peeples,0,Comedy,5,1
+1,Universal Pictures,Let's Go to Prison,1,Comedy,11,1
+1,Summit Entertainment,Memento,1,Mystery,10,1
+0,Columbia Pictures,Ghosts of Mississippi,0,History,12,0
+1,Columbia Pictures,Close Encounters of the Third Kind,5,Science Fiction,11,1
+1,Other,Barney's Version,1,Comedy,10,1
+0,Other,The Sleepwalker,0,Drama,1,0
+2,Paramount Pictures,Sahara,1,Action,4,3
+1,Lionsgate,New in Town,1,Comedy,1,1
+1,New Line Cinema,Blade,1,Horror,8,1
+0,Other,Ajami,0,Crime,9,0
+1,Lionsgate,Saw V,1,Horror,10,1
+1,New Line Cinema,Woo,1,Comedy,5,2
+0,Other,Free Style,1,Drama,12,0
+1,Other,The Killer Inside Me,0,Crime,2,1
+1,Other,Femme Fatale,1,Thriller,11,0
+1,Other,Demonic,1,Thriller,2,1
+1,Paramount Pictures,Hud,1,Action,5,1
+0,Other,Richard III,0,Drama,12,0
+0,Other,The Case of the Grinning Cat,0,Documentary,12,0
+0,Other,Lesbian Vampire Killers,0,Horror,3,0
+1,Other,3000 Miles to Graceland,1,Action,2,1
+0,Other,Bang,0,Drama,9,0
+1,Columbia Pictures,The Monuments Men,1,War,1,1
+2,Twentieth Century Fox Film Corporation,Cleopatra,3,Drama,6,2
+1,Other,300: Rise of an Empire,2,Action,3,1
+1,Paramount Pictures,The Big Short,1,Comedy,12,0
+1,Universal Pictures,Out of Sight,1,Romance,6,1
+1,Other,Bound by Honor,0,Action,2,1
+1,New Line Cinema,Harold & Kumar Go to White Castle,1,Comedy,5,2
+0,Other,DÃ©jÃ  Vu,0,Romance,4,1
+1,Twentieth Century Fox Film Corporation,Wall Street: Money Never Sleeps,1,Drama,9,1
+1,Other,Timecrimes,1,Science Fiction,9,1
+1,Other,Beyond the Black Rainbow,0,Fantasy,12,2
+1,Other,Case 39,1,Horror,8,1
+0,Paramount Pictures,A Simple Plan,0,Drama,12,0
+2,Village Roadshow Pictures,Edge of Tomorrow,2,Action,5,3
+0,Fox Searchlight Pictures,Enough Said,1,Comedy,9,0
+1,Other,A Mighty Wind,1,Comedy,4,1
+1,Other,In the Heart of the Sea,1,Thriller,11,0
+0,Other,Lottery Ticket,0,Comedy,8,0
+1,Other,The Damned United,0,Drama,3,1
+1,Lionsgate,The Next Three Days,1,Romance,11,1
+1,New Line Cinema,Teenage Mutant Ninja Turtles III,1,Action,3,1
+1,Other,Boyhood,1,Drama,6,1
+1,Paramount Pictures,The Godfather: Part II,1,Drama,12,1
+0,Fox Searchlight Pictures,The Savages,0,Drama,1,0
+1,Other,Mean Creek,1,Crime,1,1
+1,Other,First Blood,2,Action,10,1
+1,Other,Rocket Singh: Salesman of the Year,0,Drama,12,1
+1,Other,Bandidas,1,Action,1,1
+0,Walt Disney Pictures,Shipwrecked,0,Adventure,10,0
+0,Other,A Million Ways to Die in the West,0,Comedy,5,0
+1,Other,From a Whisper to a Scream,1,Comedy,9,1
+1,Twentieth Century Fox Film Corporation,Just Married,1,Comedy,1,1
+1,Other,This Is England,1,Drama,9,1
+1,Paramount Pictures,Barnyard,1,Animation,8,1
+1,Other,Edmond,0,Drama,8,1
+1,Other,Con Air,2,Action,6,1
+0,Miramax Films,On the Line,0,Comedy,10,0
+0,New Line Cinema,Lost Souls,0,Horror,10,0
+0,Lions Gate Films,For Colored Girls,1,Drama,11,0
+1,Other,The Simpsons Movie,3,Animation,7,1
+1,Columbia Pictures,Nick and Norah's Infinite Playlist,1,Comedy,10,1
+1,Metro-Goldwyn-Mayer (MGM),Pat Garrett & Billy the Kid,1,Western,5,1
+1,Other,The Warrior's Way,1,Adventure,12,1
+1,Warner Bros.,Amadeus,1,Drama,10,1
+2,Other,Troy,3,Adventure,5,4
+1,Other,The Wind That Shakes the Barley,1,Drama,5,1
+1,Other,Snowpiercer,1,Action,8,1
+1,Other,Never Say Never Again,2,Adventure,10,1
+1,Other,The Running Man,1,Action,11,1
+1,Paramount Pictures,The Hunt for Red October,2,Action,3,1
+1,Other,Blue Like Jazz,0,Drama,4,1
+2,Other,Up,4,Animation,5,3
+1,Universal Pictures,Bowfinger,0,Comedy,8,2
+1,Other,The Ghost and the Darkness,1,Adventure,10,1
+1,Paramount Pictures,The Dead Zone,1,Horror,10,1
+0,Other,Wristcutters: A Love Story,0,Comedy,1,0
+0,Other,The Toxic Avenger,0,Science Fiction,5,0
+0,Other,"A Woman, a Gun and a Noodle Shop",0,Comedy,12,0
+1,Other,Metropolitan,0,Comedy,8,1
+1,Touchstone Pictures,Goal!: The Dream Begins,1,Drama,6,2
+0,Other,Walking and Talking,0,Comedy,7,1
+1,United Artists,The Man with the Golden Gun,2,Adventure,12,4
+1,United Artists,Yentl,1,Music,11,3
+1,Other,Redbelt,0,Drama,4,1
+0,Columbia Pictures,Arthur Christmas,0,Drama,2,0
+1,Other,The Color Purple,2,Drama,12,1
+1,Universal Pictures,Dudley Do-Right,0,Comedy,8,2
+0,Other,Coming Home,0,Drama,5,0
+1,Other,"Good bye, Lenin!",1,Comedy,2,1
+1,Universal Pictures,Endless Love,1,Drama,2,1
+0,Other,Hidden Away,0,Romance,10,0
+1,Other,Open Water,1,Drama,8,1
+1,Other,Swimming Pool,1,Thriller,5,0
+2,Other,Iron Man 3,5,Action,4,1
+1,Touchstone Pictures,Nothing to Lose,0,Action,7,1
+2,Twentieth Century Fox Film Corporation,Die Hard 2,2,Action,7,2
+1,Regency Enterprises,Bogus,0,Fantasy,9,1
+1,Other,Halloween II,1,Horror,8,1
+0,Other,Quigley Down Under,0,Romance,10,0
+1,Other,Take Me Home Tonight,1,Comedy,3,1
+1,Universal Pictures,The Flintstones in Viva Rock Vegas,1,Science Fiction,4,1
+0,Other,The House of the Devil,0,Mystery,4,0
+2,Miramax Films,The Aviator,1,Drama,12,2
+1,Universal Pictures,Repo Men,1,Action,3,1
+1,Other,To Rome with Love,1,Romance,4,1
+1,Paramount Pictures,Shaft,1,Action,6,1
+2,Village Roadshow Pictures,Sherlock Holmes: A Game of Shadows,2,Adventure,11,2
+1,Twentieth Century Fox Film Corporation,Ravenous,0,Comedy,3,0
+1,Other,Downfall,1,Drama,9,1
+1,Other,Zambezia,0,Comedy,6,1
+0,Other,Grabbers,0,Science Fiction,8,0
+1,Columbia Pictures,The Taking of Pelham 1 2 3,1,Thriller,6,1
+1,Other,Spring Breakers,1,Drama,1,1
+1,New Line Cinema,A History of Violence,1,Drama,9,1
+1,Other,The Man from Snowy River,1,Family,3,1
+1,Metro-Goldwyn-Mayer (MGM),Species,1,Science Fiction,7,1
+0,Miramax Films,Little Voice,0,Comedy,11,0
+1,Other,Morning Glory,1,Comedy,1,1
+1,Other,Shopgirl,1,Comedy,10,1
+1,Paramount Pictures,Last Holiday,1,Adventure,1,1
+1,Warner Bros.,Twilight Zone: The Movie,1,Drama,6,1
+1,Other,Amour,1,Drama,7,1
+1,United Artists,From Russia with Love,3,Action,10,1
+1,Fox Searchlight Pictures,The Tree of Life,1,Drama,5,1
+1,Twentieth Century Fox Film Corporation,Because of Winn-Dixie,1,Comedy,2,1
+1,Paramount Pictures,The Relic,1,Horror,1,1
+0,Other,Barry Munday,0,Comedy,3,0
+1,Columbia Pictures,The Remains of the Day,1,Drama,11,1
+1,Touchstone Pictures,The Life Aquatic with Steve Zissou,1,Adventure,12,1
+2,Other,Jurassic World,5,Action,6,2
+1,Paramount Pictures,The Conversation,1,Crime,4,1
+1,Other,RoboCop 3,1,Action,4,1
+1,Columbia Pictures,Groundhog Day,1,Romance,2,0
+1,Other,Something Wicked,0,Mystery,4,1
+0,Other,Bill & Ted's Bogus Journey,0,Adventure,7,0
+0,Universal Pictures,The Perfect Man,0,Comedy,6,0
+1,Columbia Pictures,The Equalizer,1,Thriller,9,1
+1,Lions Gate Films,Godsend,1,Drama,4,1
+1,Paramount Pictures,Zodiac,1,Crime,3,1
+1,Universal Pictures,The Adjustment Bureau,1,Science Fiction,3,1
+0,Other,The Second Mother,0,Drama,2,0
+1,Twentieth Century Fox Film Corporation,The Verdict,1,Drama,12,1
+1,The Weinstein Company,The King's Speech,2,Drama,9,1
+0,Other,The Barbarians,0,Fantasy,3,0
+1,Paramount Pictures,Donovan's Reef,1,Adventure,6,3
+1,Summit Entertainment,Child 44,1,Crime,3,4
+1,Other,Head Over Heels,1,Comedy,2,1
+1,Paramount Pictures,Saving Private Ryan,3,Drama,7,1
+2,Walt Disney Pictures,Dinosaur,3,Animation,5,3
+1,Columbia Pictures,Zombieland,1,Comedy,10,1
+1,Other,Sex Drive,1,Comedy,10,1
+1,Other,Ruby in Paradise,1,Drama,10,1
+0,Other,Tim and Eric's Billion Dollar Movie,0,Comedy,3,0
+1,Twentieth Century Fox Film Corporation,Kiss of Death,0,Action,4,1
+1,Other,Pay It Forward,1,Drama,10,1
+0,Other,A Cock and Bull Story,0,Comedy,7,1
+1,Village Roadshow Pictures,Cats & Dogs,1,Comedy,7,1
+1,Other,Texas Chainsaw 3D,1,Horror,1,1
+1,Other,Beyond Borders,0,Drama,10,1
+1,Other,The Adventures of Sharkboy and Lavagirl,1,Adventure,6,1
+1,Other,I'm Not There.,1,Drama,10,1
+1,Other,Bright Star,1,Drama,11,1
+0,Other,Show Me,0,Drama,9,0
+1,Other,From Dusk Till Dawn,1,Horror,1,1
+0,Other,Monsoon Wedding,0,Comedy,8,0
+1,Other,Stung,0,Comedy,7,1
+0,Other,The Magic Flute,0,Comedy,9,0
+0,Other,Enter the Dangerous Mind,0,Thriller,3,0
+0,Other,The Missing Person,0,Comedy,1,0
+1,Other,Dragon Hunters,0,Animation,3,1
+1,Paramount Pictures,Willy Wonka & the Chocolate Factory,1,Family,6,5
+1,Other,Married Life,0,Crime,9,1
+1,Other,Jason Bourne,2,Action,7,0
+1,Walt Disney Pictures,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",1,Family,10,1
+1,Other,Cool Runnings,2,Comedy,9,1
+1,Other,Sherrybaby,1,Drama,9,1
+1,Paramount Pictures,Alfie,1,Comedy,10,1
+1,Columbia Pictures,Money Train,1,Action,11,1
+1,Other,3 Days to Kill,1,Action,2,1
+0,Other,St. Trinian's,0,Comedy,12,0
+1,Lionsgate,Daybreakers,1,Fantasy,1,1
+1,Other,A Most Wanted Man,1,Thriller,7,1
+1,Lions Gate Films,Crank,1,Action,8,1
+1,Universal Pictures,Mamma Mia!,3,Comedy,7,1
+1,Paramount Pictures,Rugrats in Paris: The Movie,1,Adventure,9,3
+0,Other,Fifty Dead Men Walking,0,Action,9,0
+0,Other,Carousel of Revenge,0,Thriller,7,0
+1,Other,Legends of the Fall,2,Adventure,12,1
+1,Other,Ripley's Game,0,Crime,9,1
+1,Universal Pictures,Love Actually,2,Comedy,9,1
+1,Other,Unleashed,1,Action,2,1
+1,Other,The Lord of the Rings: The Return of the King,5,Adventure,12,1
+1,Lionsgate,Maggie,1,Horror,5,1
+0,Other,The Dead Girl,0,Mystery,11,0
+0,Other,Jesus' Son,0,Comedy,9,0
+1,Other,The Age of Adaline,1,Fantasy,4,1
+1,Other,Agora,1,Adventure,5,1
+1,Universal Pictures,Duplicity,1,Romance,3,1
+2,Columbia Pictures,Final Fantasy: The Spirits Within,1,Adventure,7,1
+2,Other,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",4,Adventure,12,3
+1,Lionsgate,Kick-Ass,1,Action,3,3
+1,DreamWorks SKG,Need for Speed,1,Action,3,1
+1,Other,The Elephant Man,1,Drama,10,1
+1,Other,She Wore a Yellow Ribbon,1,Western,10,0
+1,Paramount Pictures,Clueless,0,Comedy,7,0
+0,Other,New York Minute,0,Comedy,5,0
+1,Universal Pictures,Phantasm II,1,Action,7,2
+0,Other,Feast,1,Action,10,0
+1,Other,The Lovely Bones,1,Fantasy,12,2
+0,Other,All Hat,0,Action,9,0
+1,Other,The Prophecy,1,Fantasy,9,1
+5,Paramount Pictures,Metropolis,1,Drama,1,5
+1,Columbia Pictures,30 Days of Night,1,Horror,10,1
+1,Metro-Goldwyn-Mayer (MGM),De-Lovely,0,Drama,7,1
+1,Other,Dawn of the Dead,1,Fantasy,3,1
+1,Other,Homefront,1,Action,11,1
+1,New Line Cinema,We're the Millers,2,Comedy,8,1
+0,Other,Creature,0,Horror,5,1
+1,Other,Just Looking,0,Drama,10,1
+1,Summit Entertainment,A Better Life,1,Drama,6,2
+1,Other,Tales from the Hood,1,Crime,5,0
+1,Columbia Pictures,The House Bunny,1,Romance,8,0
+1,Paramount Pictures,Against the Ropes,1,Romance,2,1
+1,Touchstone Pictures,Ed Wood,1,Comedy,9,1
+1,New Line Cinema,Little Children,1,Romance,10,1
+0,Other,Next Day Air,0,Action,2,0
+3,Universal Pictures,Waterworld,2,Adventure,7,3
+1,Other,Dolphin Tale,1,Drama,9,1
+1,Other,Infamous,1,Drama,11,1
+0,Other,51 Birch Street,0,Documentary,10,0
+1,Other,Warlock,0,Adventure,6,1
+0,Other,Jungle Shuffle,0,Family,8,0
+1,Other,[REC]Â²,1,Thriller,9,1
+1,Columbia Pictures,Tootsie,2,Comedy,12,1
+2,Universal Pictures,R.I.P.D.,1,Fantasy,7,2
+1,Fox Searchlight Pictures,The Descendants,1,Comedy,9,0
+1,Other,Simply Irresistible,1,Comedy,2,1
+1,Other,The Blind Side,2,Drama,11,1
+1,Miramax Films,The Matador,1,Action,5,1
+1,Other,Sands of Iwo Jima,1,Action,12,1
+1,Fox Searchlight Pictures,The Way Way Back,1,Comedy,6,1
+1,Other,Death to Smoochy,0,Comedy,3,1
+1,Other,American Heist,0,Action,9,1
+1,Universal Pictures,Halloween III: Season of the Witch,1,Horror,10,1
+0,Other,The Visitors,0,Fantasy,1,0
+1,Other,Flipped,1,Romance,8,0
+0,Other,The Legend of Hell's Gate: An American Conspiracy,0,Action,3,0
+1,TriStar Pictures,Premonition,1,Thriller,2,1
+1,Other,The Dilemma,1,Comedy,1,1
+0,Other,A Haunted House 2,0,Comedy,4,0
+1,DreamWorks SKG,Shrek,3,Adventure,5,1
+1,Universal Pictures,The Fourth Kind,1,Mystery,11,1
+1,Paramount Pictures,The Phantom,1,Adventure,6,3
+1,Paramount Pictures,Boomerang,1,Comedy,6,1
+1,Other,MacGruber,1,Action,5,1
+1,Paramount Pictures,Without a Paddle,1,Action,8,1
+1,Other,One Night with the King,1,Drama,10,1
+1,New Line Cinema,The Conjuring 2,2,Horror,5,1
+1,Walt Disney Pictures,The Santa Clause 2,1,Fantasy,10,1
+1,Other,Highlander: Endgame,1,Action,9,1
+1,New Line Cinema,Blade: Trinity,1,Science Fiction,12,1
+1,Other,The Names of Love,0,Drama,11,1
+1,Other,Keeping the Faith,1,Comedy,4,1
+1,Columbia Pictures,Whatever It Takes,1,Drama,3,1
+4,Walt Disney Pictures,Pirates of the Caribbean: On Stranger Tides,5,Adventure,5,3
+3,Other,The Hobbit: The Battle of the Five Armies,4,Action,12,5
+1,Universal Pictures,Jurassic Park,5,Adventure,6,1
+1,Twentieth Century Fox Film Corporation,The Longest Day,2,Action,9,2
+0,Paramount Pictures,Dead Man on Campus,0,Comedy,8,0
+1,Other,The Best of Me,1,Drama,10,1
+0,Village Roadshow Pictures,Miss Congeniality 2: Armed and Fabulous,0,Action,3,0
+1,Other,Paper Towns,1,Drama,6,1
+1,Other,GoodFellas,1,Drama,9,1
+1,Other,The Cave,1,Action,8,1
+1,DreamWorks SKG,Real Steel,2,Action,9,0
+0,Other,Now Is Good,0,Drama,5,0
+1,Universal Pictures,The Best Little Whorehouse in Texas,1,Comedy,7,1
+1,Paramount Pictures,Star Trek IV: The Voyage Home,2,Science Fiction,11,1
+0,Other,Ararat,0,War,5,1
+1,Other,Killer Joe,1,Crime,9,1
+1,United Artists,"The Good, the Bad and the Ugly",1,Western,12,4
+1,Other,All About Steve,1,Comedy,9,1
+1,Other,Epic,2,Animation,5,1
+1,Columbia Pictures,Cloudy with a Chance of Meatballs 2,2,Animation,9,2
+1,Other,Blades of Glory,0,Action,3,1
+1,Other,Kiss Kiss Bang Bang,1,Action,9,1
+1,Summit Entertainment,Step Up 3D,1,Drama,8,1
+1,Other,The History Boys,1,Comedy,10,1
+1,Columbia Pictures,Boyz n the Hood,1,Crime,7,1
+2,Columbia Pictures,White House Down,1,Action,6,4
+1,Metro-Goldwyn-Mayer (MGM),Beauty Shop,1,Comedy,6,1
+1,Other,Quarantine,1,Horror,10,1
+2,Twentieth Century Fox Film Corporation,X2,3,Adventure,4,3
+1,Other,Radio Days,0,Comedy,1,1
+1,Universal Pictures,About a Boy,1,Drama,4,1
+1,Paramount Pictures,Days of Thunder,2,Adventure,6,3
+1,Other,Rubber,1,Comedy,7,1
+1,Twentieth Century Fox Film Corporation,Ladyhawke,1,Adventure,3,5
+1,Other,Unknown,1,Action,2,1
+1,Other,The Rugrats Movie,1,Animation,11,2
+2,Other,The Alamo,1,Western,4,1
+1,New Line Cinema,He's Just Not That Into You,1,Comedy,2,1
+1,Columbia Pictures,Anaconda,1,Adventure,4,1
+1,Paramount Pictures,The Man Who Shot Liberty Valance,1,Western,4,1
+2,Walt Disney Pictures,The Sorcerer's Apprentice,1,Fantasy,7,2
+1,Other,Henry V,0,War,10,0
+0,United Artists,Hurricane Streets,0,Romance,1,0
+3,Walt Disney Pictures,John Carter,2,Action,3,4
+1,Other,City of Ember,1,Adventure,10,1
+1,Other,Cadillac Records,0,Drama,12,1
+2,Twentieth Century Fox Film Corporation,Kung Fu Panda 3,3,Action,1,1
+1,Universal Pictures,Cirque du Freak: The Vampire's Assistant,1,Adventure,10,1
+1,Other,Princess Kaiulani,1,Drama,5,1
+1,Other,The Brown Bunny,0,Drama,8,1
+1,Other,Under the Skin,1,Thriller,3,1
+1,Paramount Pictures,Escape from Alcatraz,1,Crime,6,1
+1,Other,The Host,1,Horror,7,1
+2,Other,Australia,1,Drama,11,1
+1,New Line Cinema,A Man Apart,1,Action,4,1
+1,Other,The Secret in Their Eyes,1,Crime,8,1
+0,Other,Should've Been Romeo,0,Comedy,4,0
+1,Other,Savage Grace,0,Drama,5,1
+1,TriStar Pictures,The Last Dragon,1,Action,3,1
+1,Other,Unfriended,1,Horror,4,1
+1,Metro-Goldwyn-Mayer (MGM),A Guy Named Joe,1,Drama,3,1
+1,Other,Friends with Money,1,Comedy,9,1
+1,Universal Pictures,Mama,1,Horror,1,1
+1,Columbia Pictures,Lords of Dogtown,1,Drama,6,1
+1,Metro-Goldwyn-Mayer (MGM),The Big Parade,2,Drama,11,2
+0,Other,Soul Men,0,Comedy,11,0
+1,Other,Paparazzi,1,Action,9,1
+1,Village Roadshow Pictures,Ghost Ship,1,Horror,10,1
+2,Other,Iron Man,3,Action,4,1
+1,Paramount Pictures,Star Trek: The Motion Picture,2,Science Fiction,12,1
+1,Columbia Pictures,We Own the Night,1,Drama,5,1
+1,Fox Searchlight Pictures,My Name Is Khan,1,Drama,2,1
+0,Miramax Films,Dirty Pretty Things,0,Crime,9,0
+1,Metro-Goldwyn-Mayer (MGM),Charlie Bartlett,0,Comedy,2,1
+0,Other,The Descent,0,Adventure,7,0
+0,Touchstone Pictures,What's Love Got to Do with It,0,Drama,6,0
+1,Other,Something Borrowed,1,Comedy,5,1
+1,Other,Shin Godzilla,1,Action,7,0
+1,Other,Spellbound,1,Drama,12,1
+0,Other,Neal 'n' Nikki,0,Comedy,12,0
+1,Other,Beetlejuice,1,Fantasy,2,1
+1,Other,Up Close & Personal,0,Drama,3,1
+1,Metro-Goldwyn-Mayer (MGM),The Betrayed,0,Crime,9,1
+1,Columbia Pictures,Year One,1,Comedy,6,1
+1,Other,Hero,1,Drama,12,1
+1,Other,The Forbidden Kingdom,1,Action,4,1
+1,Other,The Artist,1,Drama,5,1
+1,Other,The Legend of the Lone Ranger,1,Action,8,1
+0,Other,The Campaign,1,Comedy,8,0
+0,Village Roadshow Pictures,Valentine,0,Horror,2,0
+1,Other,The Lovers,0,Action,2,1
+1,Twentieth Century Fox Film Corporation,The Day the Earth Stood Still,2,Drama,12,1
+1,Other,Cube,1,Thriller,9,1
+1,Other,District B13,1,Action,11,1
+0,Other,Chairman of the Board,0,Comedy,3,0
+0,Other,Tycoon,0,Action,12,0
+1,DreamWorks SKG,American Beauty,3,Drama,9,1
+1,Paramount Pictures,The Hours,1,Drama,12,1
+1,Other,The Texas Chainsaw Massacre 2,1,Horror,8,1
+1,Metro-Goldwyn-Mayer (MGM),Annie Get Your Gun,1,Action,5,0
+1,Other,Cat on a Hot Tin Roof,1,Drama,2,1
+0,Columbia Pictures,City Hall,0,Drama,2,0
+1,Columbia Pictures,The Other Boleyn Girl,0,Drama,2,0
+1,Village Roadshow Pictures,Sherlock Holmes,3,Action,12,3
+0,Metro-Goldwyn-Mayer (MGM),Flawless,1,Comedy,11,1
+1,Universal Pictures,The Purge: Election Year,1,Action,6,2
+0,Other,Megaforce,0,Adventure,6,0
+1,Other,Breakfast of Champions,0,Comedy,2,1
+1,Paramount Pictures,Beverly Hills Cop II,3,Action,5,1
+1,Other,Oliver Twist,1,Crime,9,1
+1,Universal Pictures,Schindler's List,3,Drama,11,1
+1,Other,Sweet November,1,Drama,2,1
+2,Other,Captain America: The First Avenger,2,Action,7,4
+1,Other,The Imaginarium of Doctor Parnassus,1,Adventure,10,1
+0,Other,Pandaemonium,0,Drama,6,0
+1,Warner Bros.,The Lost Boys,1,Horror,7,1
+0,Other,Malone,0,Action,5,0
+1,Other,This Is Where I Leave You,1,Drama,9,1
+0,Columbia Pictures,The Adventures of Elmo in Grouchland,0,Family,10,0
+0,Other,The Country Doctor,0,Drama,3,0
+1,Other,Corky Romano,1,Action,10,1
+1,Other,My Name Is Bruce,1,Comedy,10,1
+1,Other,21 & Over,1,Comedy,3,1
+1,Other,Banshee Chapter,0,Horror,8,1
+1,Paramount Pictures,Jack Reacher,1,Crime,12,1
+1,Summit Entertainment,Step Up Revolution,1,Music,7,1
+0,Other,Girl with a Pearl Earring,1,Drama,8,0
+1,Other,Sphinx,1,Adventure,2,0
+1,Other,The Butler,1,Drama,8,1
+1,Village Roadshow Pictures,Two Weeks Notice,1,Romance,12,3
+1,Other,Halloween 5: The Revenge of Michael Myers,1,Horror,10,1
+1,Other,The Hebrew Hammer,0,Action,1,1
+1,Other,Hard to Be a God,1,Drama,2,1
+1,Other,Deep Rising,1,Adventure,1,1
+0,DreamWorks SKG,Ghost Town,0,Comedy,9,0
+1,Other,Save the Last Dance,1,Drama,1,1
+1,Other,The Pianist,1,Drama,9,1
+1,Other,Henry & Me,0,Family,8,1
+1,Lionsgate,Beyond the Sea,0,Drama,12,1
+1,Other,Tea with Mussolini,1,Comedy,3,1
+1,Paramount Pictures,Deep Impact,1,Action,5,1
+0,Other,Meek's Cutoff,1,Drama,9,0
+1,Other,Dredd,1,Action,9,1
+0,Other,Happy Christmas,0,Comedy,6,0
+1,Other,The Postman Always Rings Twice,0,Romance,3,0
+1,Other,The Apostle,0,Drama,10,1
+2,Other,Fantastic 4: Rise of the Silver Surfer,2,Adventure,6,3
+0,Columbia Pictures,America's Sweethearts,0,Comedy,7,0
+1,Other,Million Dollar Baby,2,Drama,12,1
+1,Universal Pictures,The Jackal,1,Action,11,1
+2,Columbia Pictures,Stuart Little,2,Animation,12,2
+1,Other,Underworld: Evolution,1,Fantasy,1,1
+1,Miramax Films,Things to Do in Denver When You're Dead,1,Drama,12,1
+0,Miramax Films,The Yards,0,Drama,4,0
+1,Twentieth Century Fox Film Corporation,Devil's Due,1,Horror,1,1
+1,Other,The Whole Ten Yards,1,Comedy,4,1
+1,Other,Ultraviolet,1,Science Fiction,3,1
+0,Other,Bats,1,Horror,10,0
+1,Other,Mongol: The Rise of Genghis Khan,1,History,9,0
+0,Other,American Ninja 2: The Confrontation,0,Action,5,0
+1,Other,The Last Exorcism Part II,1,Horror,2,0
+1,Other,Fear Clinic,0,Horror,10,1
+1,Other,Beyond the Mat,1,Documentary,10,1
+1,Other,House at the End of the Street,1,Horror,9,1
+0,United Artists,Deuces Wild,0,Action,5,0
+0,Other,Love and Death on Long Island,0,Drama,1,0
+1,Other,Michael Clayton,1,Drama,9,1
+1,Universal Pictures,The Watcher,0,Mystery,9,1
+1,The Weinstein Company,Big Eyes,1,Drama,12,1
+1,Other,Bubba Ho-tep,0,Comedy,6,1
+1,Other,Lost in Translation,1,Drama,8,1
+0,Other,Me and You and Everyone We Know,0,Comedy,6,0
+2,Paramount Pictures,Paint Your Wagon,1,Drama,10,1
+0,Other,Bobby Jones: Stroke of Genius,0,Drama,4,0
+1,Other,Kingdom of the Spiders,1,Horror,8,1
+0,Other,Goddess of Love,0,Mystery,8,0
+0,Village Roadshow Pictures,Eight Legged Freaks,0,Action,7,0
+0,Other,My Date with Drew,0,Documentary,8,0
+1,Other,V for Vendetta,1,Action,3,1
+1,Universal Pictures,Forbidden Kingdom,0,Thriller,1,1
+1,Village Roadshow Pictures,Get Smart,2,Action,6,1
+1,Warner Bros.,Mad City,1,Action,11,1
+1,Other,Room,1,Drama,10,1
+1,Other,The Perfect Game,1,Drama,4,1
+1,Other,Sabotage,1,Action,3,1
+1,Other,Autumn in New York,0,Drama,8,1
+1,Other,"Legally Blonde 2: Red, White & Blonde",1,Comedy,7,1
+1,Other,Detention,0,Horror,3,1
+0,Other,Chasing Mavericks,0,Drama,10,0
+0,Twentieth Century Fox Film Corporation,Deadline - U.S.A.,0,Crime,3,1
+1,Other,Insomnia,1,Crime,5,0
+1,Universal Pictures,Mystery Men,1,Adventure,8,1
+2,Other,Men in Black 3,3,Action,5,2
+1,Other,Selena,1,Drama,3,1
+0,Other,Here On Earth,0,Romance,3,0
+1,Fox Searchlight Pictures,Sexy Beast,0,Crime,9,0
+1,Touchstone Pictures,Kundun,1,Drama,12,1
+0,Other,Just Visiting,0,Comedy,4,0
+1,Other,Muppets Most Wanted,1,Comedy,3,1
+1,Paramount Pictures,Beowulf,1,Adventure,11,1
+2,Other,Harry Potter and the Goblet of Fire,5,Adventure,11,5
+1,Walt Disney Pictures,Roadside Romeo,1,Animation,10,1
+1,Columbia Pictures,Ishtar,1,Action,5,1
+1,Summit Entertainment,Draft Day,1,Drama,4,0
+1,Universal Pictures,Spotlight,1,Drama,11,1
+1,Universal Pictures,Sweet Charity,1,Comedy,1,1
+0,Paramount Pictures,Mommie Dearest,0,Drama,9,0
+1,Other,Chloe,1,Drama,3,1
+1,Other,Stormbreaker,1,Adventure,7,1
+0,Other,High Tension,0,Horror,6,0
+1,Other,Dying of the Light,0,Thriller,12,1
+1,Universal Pictures,Ouija,1,Horror,10,1
+1,Universal Pictures,Trainwreck,1,Comedy,7,1
+1,Other,Hoodwinked Too! Hood VS. Evil,1,Comedy,4,1
+3,Other,Captain America: Civil War,5,Adventure,4,5
+1,Paramount Pictures,Hansel & Gretel: Witch Hunters,1,Fantasy,1,1
+0,Other,Idlewild,0,Crime,8,0
+1,Other,Alvin and the Chipmunks: Chipwrecked,2,Comedy,12,1
+1,Other,After.Life,1,Drama,4,1
+1,Other,Only God Forgives,1,Drama,5,1
+1,Other,Novocaine,1,Comedy,11,1
+0,Other,Nicholas Nickleby,0,Adventure,12,0
+1,Other,The Veil,0,Horror,4,1
+1,Other,Frailty,1,Drama,11,1
+1,Other,Percy Jackson & the Olympians: The Lightning Thief,2,Adventure,2,0
+1,Other,Hit & Run,1,Action,8,1
+1,Paramount Pictures,School of Rock,1,Comedy,10,1
+1,Other,The Runaways,1,Drama,3,1
+1,United Artists,Valkyrie,1,Drama,12,4
+1,Other,Beasts of the Southern Wild,1,Drama,6,1
+2,Village Roadshow Pictures,The Matrix Revolutions,3,Adventure,11,2
+1,Walt Disney Pictures,The Princess Diaries,1,Comedy,8,1
+1,Other,Danny Collins,1,Comedy,3,1
+1,New Line Cinema,Hairspray,1,Family,7,1
+1,Columbia Pictures,The Age of Innocence,1,Drama,9,2
+1,United Artists,Fiddler on the Roof,3,Drama,11,3
+1,Other,God's Not Dead 2,1,Drama,4,1
+2,Other,Gone in Sixty Seconds,2,Action,6,2
+2,Other,47 Ronin,1,Drama,12,3
+0,Other,Elling,0,Comedy,3,0
+1,New Line Cinema,Hall Pass,1,Comedy,2,1
+1,United Artists,Apocalypse Now,2,Drama,8,2
+1,Other,Snow White and the Seven Dwarfs,5,Fantasy,12,2
+0,Other,Lady in White,0,Horror,4,0
+1,Paramount Pictures,Escape from L.A.,1,Action,8,1
+2,Other,Kingdom of Heaven,2,Drama,5,4
+0,Lions Gate Films,Repo! The Genetic Opera,1,Horror,7,0
+1,Other,The In Crowd,1,Thriller,7,1
+1,Twentieth Century Fox Film Corporation,Date Night,1,Comedy,4,1
+1,Other,Mao's Last Dancer,1,Drama,10,1
+0,Other,Critical Care,0,Comedy,10,0
+1,Other,Fireproof,1,Drama,9,1
+1,Other,Max Payne,1,Action,10,1
+1,Columbia Pictures,Ghost Rider: Spirit of Vengeance,1,Action,12,1
+1,Other,Legends of Oz: Dorothy's Return,1,Animation,6,1
+1,Other,The Ninth Gate,1,Horror,8,1
+0,Other,Zombie Hunter,0,Comedy,7,1
+1,Other,Cats Don't Dance,1,Animation,3,1
+0,Other,The Geographer Drank His Globe Away,1,Drama,7,0
+1,New Line Cinema,Love Jones,0,Comedy,3,1
+1,Other,They Will Have to Kill Us First,0,Music,10,0
+1,Miramax Films,40 Days and 40 Nights,0,Comedy,3,1
+1,Other,The Young Victoria,1,Drama,3,1
+2,Summit Entertainment,Gods of Egypt,1,Fantasy,2,2
+1,Other,Inside Man,1,Crime,3,1
+1,Paramount Pictures,Hard Rain,1,Thriller,1,1
+0,Fox Searchlight Pictures,Just Wright,1,Comedy,5,0
+1,Other,The Believer,1,Drama,1,1
+1,New Line Cinema,Boiler Room,1,Crime,2,1
+1,New Line Cinema,San Andreas,2,Action,5,1
+1,Columbia Pictures,13 Going on 30,1,Comedy,4,0
+1,Paramount Pictures,The Naked Gun 2Â½: The Smell of Fear,1,Comedy,6,1
+1,Other,Chain of Command,0,Thriller,8,0
+2,Walt Disney Pictures,The Good Dinosaur,2,Adventure,11,2
+1,Other,Drive Hard,0,Action,5,1
+1,Other,As Good as It Gets,2,Comedy,12,1
+1,Paramount Pictures,Star Trek III: The Search for Spock,1,Science Fiction,5,1
+1,Other,Bronson,1,Drama,10,1
+1,Other,Special,1,Drama,1,1
+2,Other,Harry Potter and the Prisoner of Azkaban,5,Adventure,5,4
+1,Other,Blade Runner,1,Science Fiction,6,1
+1,Other,Eraserhead,1,Drama,3,1
+1,Other,Jane Got a Gun,1,Action,1,1
+0,Other,The Circle,0,Drama,9,0
+1,Other,Billy Elliot,1,Drama,5,1
+1,Other,Against the Wild,0,Adventure,12,1
+1,Metro-Goldwyn-Mayer (MGM),Stargate: The Ark of Truth,1,Adventure,3,1
+1,Other,The Curse of the Were-Rabbit,1,Adventure,9,1
+1,Metro-Goldwyn-Mayer (MGM),Return to Me,1,Romance,4,1
+1,Other,Wanderlust,1,Comedy,2,1
+1,Columbia Pictures,Poetic Justice,1,Drama,7,1
+2,Walt Disney Pictures,Brave,3,Animation,6,3
+1,Other,A Very Long Engagement,0,Drama,10,1
+1,Other,The Wave,1,Drama,3,1
+1,Other,Michael Collins,1,Drama,10,1
+2,Warner Bros.,Superman,5,Action,12,3
+1,Other,Seed of Chucky,1,Drama,11,1
+0,Other,Mr. Turner,1,History,10,0
+1,Other,A Lot Like Love,1,Comedy,4,1
+1,Universal Pictures,Back to the Future Part III,2,Adventure,5,1
+1,The Weinstein Company,Alone With Her,1,Crime,4,1
+0,Miramax Films,Bullets Over Broadway,0,Action,10,0
+2,Paramount Pictures,G.I. Joe: Retaliation,2,Adventure,3,1
+1,Other,Men of Honor,1,Drama,9,1
+1,United Artists,Red Dawn,1,Action,8,1
+0,Other,Texas Rangers,0,Action,11,0
+1,Village Roadshow Pictures,House of Wax,1,Horror,4,1
+1,Other,Casino Jack,1,Crime,9,1
+0,Miramax Films,Kate & Leopold,0,Comedy,12,0
+1,Miramax Films,"Happy, Texas",1,Comedy,12,1
+2,Warner Bros.,Batman Forever,3,Action,5,3
+1,Other,Losin' It,1,Comedy,4,1
+1,Miramax Films,"Sex, Lies, and Videotape",0,Drama,8,1
+1,Touchstone Pictures,Splash,1,Comedy,3,0
+0,Other,Three Kingdoms: Resurrection of the Dragon,0,Action,4,0
+1,Columbia Pictures,First Knight,1,Action,7,2
+1,Twentieth Century Fox Film Corporation,Stuck on You,1,Comedy,12,2
+1,United Artists,Goldfinger,4,Adventure,9,2
+1,Other,Twixt,0,Horror,9,1
+1,Other,Bottle Shock,1,Comedy,8,1
+1,Other,"Mystery, Alaska",1,Drama,10,1
+1,Fox Searchlight Pictures,One Hour Photo,1,Horror,8,0
+1,Other,JFK,2,Drama,12,1
+1,Other,Entrapment,2,Romance,4,1
+1,Other,Anomalisa,1,Animation,12,1
+1,Other,Zero Effect,1,Comedy,1,1
+0,Other,Mississippi Mermaid,0,Crime,6,0
+1,Other,The Green Inferno,1,Action,9,1
+0,Other,Indie Game: The Movie,0,Documentary,5,1
+0,Other,Lonesome Jim,0,Comedy,11,0
+1,Other,War,1,Action,8,1
+1,Other,Self/less,1,Science Fiction,7,1
+1,Universal Pictures,Hot Fuzz,1,Crime,2,1
+1,Other,The Other End of the Line,0,Comedy,10,1
+1,Universal Pictures,The Interpreter,1,Crime,4,1
+1,Miramax Films,Cypher,0,Thriller,10,2
+1,Other,Y Tu MamÃ¡ TambiÃ©n,1,Drama,6,1
+1,Other,Blood Work,1,Crime,8,1
+1,Other,Armored,1,Action,12,1
+1,Other,Forsaken,0,Western,9,1
+0,Other,The Dirties,0,Drama,10,0
+1,New Line Cinema,The New World,1,Drama,12,1
+1,New Line Cinema,The Little Vampire,1,Family,10,1
+1,Other,Jennifer's Body,1,Comedy,9,1
+0,Other,B-Girl,0,Crime,7,0
+1,Universal Pictures,House of 1000 Corpses,1,Horror,4,1
+1,Lionsgate,My Best Friend's Girl,1,Romance,9,0
+1,Other,Half Past Dead,0,Crime,11,1
+1,Warner Bros.,The Nun's Story,1,Drama,6,1
+1,Miramax Films,Frida,1,Drama,8,1
+1,TriStar Pictures,Planet 51,1,Science Fiction,11,1
+1,Miramax Films,Don't Be Afraid of the Dark,1,Fantasy,11,1
+1,Other,The Crazies,1,Mystery,2,1
+1,Other,In Bruges,1,Comedy,2,1
+1,Twentieth Century Fox Film Corporation,Monkeybone,1,Adventure,2,1
+1,Columbia Pictures,I Spy,1,Action,10,1
+1,Universal Pictures,Inglourious Basterds,2,Drama,8,1
+1,Other,Osmosis Jones,1,Adventure,8,1
+1,Other,Looney Tunes: Back in Action,1,Animation,11,2
+2,Paramount Pictures,Watchmen,1,Action,3,2
+1,Other,Simon Birch,1,Comedy,9,1
+1,Other,Conspiracy Theory,1,Action,8,1
+1,Other,Rapa Nui,1,Adventure,9,1
+1,Other,Trade,0,Drama,1,1
+1,Other,Dazed and Confused,1,Comedy,9,1
+1,Other,Mindhunters,1,Mystery,5,0
+1,Other,Equilibrium,1,Action,12,1
+1,Other,Peggy Sue Got Married,1,Comedy,10,1
+0,Other,Cabin Fever,0,Horror,2,0
+1,Universal Pictures,The Huntsman: Winter's War,1,Action,4,1
+2,Other,Star Wars: Episode I - The Phantom Menace,5,Adventure,5,4
+0,Other,The Legend of Suriyothai,0,Drama,8,0
+1,New Line Cinema,Rumble in the Bronx,1,Crime,1,1
+1,Other,Grindhouse,1,Thriller,4,0
+1,Walt Disney Pictures,Fantasia,5,Animation,11,4
+1,Warner Bros.,42,1,Drama,4,1
+1,Regency Enterprises,Tin Cup,1,Comedy,8,1
+0,Other,My Life Without Me,1,Drama,3,0
+1,Walt Disney Pictures,The Straight Story,0,Drama,10,1
+0,Other,Sisters in Law,0,Documentary,9,1
+1,Other,Heartbreakers,0,Crime,3,1
+1,Universal Pictures,Leap Year,1,Romance,1,1
+2,Twentieth Century Fox Film Corporation,Prometheus,2,Science Fiction,5,2
+1,Other,The Eye,1,Drama,2,1
+1,Twentieth Century Fox Film Corporation,The Object of My Affection,1,Comedy,4,1
+1,Other,High School Musical,0,Comedy,1,1
+1,Other,Think Like a Man,1,Comedy,4,1
+0,Other,Good Dick,0,Comedy,10,0
+1,Paramount Pictures,Star Trek II: The Wrath of Khan,1,Action,6,1
+1,Other,Grace of Monaco,0,Romance,5,1
+1,Village Roadshow Pictures,Three to Tango,0,Comedy,10,1
+0,Fox Searchlight Pictures,Oscar and Lucinda,0,Drama,12,0
+1,Metro-Goldwyn-Mayer (MGM),Rescue Dawn,1,Adventure,9,1
+1,Other,Out Cold,1,Comedy,11,1
+0,New Line Cinema,Martian Child,0,Drama,11,0
+1,Other,Hanging Up,1,Comedy,2,1
+1,Other,The Oh in Ohio,0,Comedy,3,1
+1,Other,Superman IV: The Quest for Peace,1,Action,7,0
+0,Other,The Last Days on Mars,0,Science Fiction,8,0
+1,Twentieth Century Fox Film Corporation,Ice Age,3,Animation,3,1
+1,New Line Cinema,The Women,1,Comedy,9,1
+0,Other,Yes,0,Drama,8,0
+1,Other,"First Love, Last Rites",1,Drama,8,1
+1,Paramount Pictures,200 Cigarettes,1,Comedy,2,1
+1,Other,Superhero Movie,1,Action,3,1
+1,Other,School for Scoundrels,1,Comedy,9,1
+1,Universal Pictures,American Dreamz,1,Comedy,3,0
+1,Warner Bros.,42nd Street,1,Music,2,1
+1,Paramount Pictures,Reno 911!: Miami,1,Action,2,1
+1,Other,Survivor,0,Thriller,5,0
+2,Village Roadshow Pictures,Ocean's Twelve,2,Thriller,12,3
+1,Universal Pictures,American Reunion,2,Comedy,4,1
+0,Lions Gate Films,Religulous,0,Comedy,10,0
+1,Columbia Pictures,Into the Blue,1,Action,9,1
+1,Warner Bros.,Krush Groove,0,Drama,10,1
+1,Paramount Pictures,Sorcerer,1,Action,6,1
+0,Other,The Wicked Within,0,Horror,10,0
+1,Other,Maze Runner: The Scorch Trials,2,Action,9,1
+1,Regency Enterprises,Vampires Suck,1,Horror,8,1
+1,Other,Pandorum,1,Action,9,1
+0,Paramount Pictures,Home for the Holidays,1,Comedy,11,0
+1,Other,Inside Llewyn Davis,1,Drama,10,1
+1,Fox Searchlight Pictures,Bend It Like Beckham,1,Comedy,4,1
+1,Paramount Pictures,A Farewell to Arms,1,Drama,12,1
+0,Other,Water,1,Drama,9,0
+0,Other,I Got the Hook Up,0,Action,5,0
+1,TriStar Pictures,Jawbreaker,1,Comedy,1,1
+1,Columbia Pictures,This Is It,0,Music,10,1
+1,Universal Pictures,Ted,3,Comedy,6,1
+1,Lionsgate,Brothers,1,Drama,1,1
+1,Other,Red Sky,0,Action,3,1
+1,Other,It's Kind of a Funny Story,1,Comedy,7,1
+1,Other,The Boondock Saints II: All Saints Day,1,Action,11,1
+1,Other,Marley & Me,2,Comedy,12,1
+1,Lionsgate,Dirty Grandpa,1,Comedy,1,1
+1,Columbia Pictures,Oliver!,2,Drama,9,2
+1,DreamWorks SKG,Hotel for Dogs,1,Comedy,1,1
+0,Other,"Dancer, Texas Pop. 81",1,Comedy,5,0
+1,New Line Cinema,Tammy,1,Comedy,7,2
+1,Other,The Boy,1,Horror,1,1
+1,Other,Labor Day,1,Drama,12,1
+0,Other,Foolish,1,Comedy,4,0
+1,Other,Halloween,2,Horror,10,1
+2,Columbia Pictures,Charlie's Angels: Full Throttle,2,Action,6,4
+1,Other,The Contender,0,Drama,10,1
+1,Twentieth Century Fox Film Corporation,How Green Was My Valley,1,Drama,10,1
+0,Other,Do You Believe?,0,Fantasy,3,0
+1,Miramax Films,Duplex,1,Action,9,1
+2,Other,Tomorrow Never Dies,3,Adventure,12,3
+0,Other,Taxman,0,Action,9,0
+1,Other,Lone Star,1,Drama,6,1
+1,TriStar Pictures,Baby Geniuses,1,Science Fiction,3,1
+1,Other,The Rocker,1,Comedy,8,1
+0,Other,Thomas and the Magic Railroad,0,Animation,7,0
+1,Metro-Goldwyn-Mayer (MGM),Inchon,1,Drama,5,1
+1,Other,Sweet Sweetback's Baadasssss Song,1,Action,4,1
+1,Other,The Nutty Professor,1,Fantasy,6,4
+1,Paramount Pictures,Team America: World Police,1,Music,10,1
+1,Lions Gate Films,Fido,1,Romance,9,1
+1,Other,2046,1,Fantasy,5,1
+0,Other,The Art of Getting By,1,Drama,6,0
+0,Other,Swelter,0,Action,4,0
+1,Other,The Whole Nine Yards,1,Comedy,2,1
+1,United Artists,12 Angry Men,1,Drama,3,1
+1,Other,Mulholland Drive,1,Thriller,5,0
+0,Other,Forget Me Not,0,Drama,10,0
+1,Paramount Pictures,The Saint,1,Thriller,4,1
+1,Columbia Pictures,Rocky Balboa,1,Drama,12,1
+1,Other,Soldier,1,Action,10,1
+1,New Line Cinema,Dumb and Dumber To,1,Comedy,11,1
+1,Other,The Best Man Holiday,1,Comedy,11,1
+1,Other,Lincoln,2,History,11,1
+1,Other,The Baader Meinhof Complex,0,Action,9,1
+1,TriStar Pictures,Seven Years in Tibet,1,Adventure,9,1
+2,Walt Disney Pictures,Alice in Wonderland,5,Family,3,4
+0,Other,Coco Before Chanel,0,Drama,4,0
+1,Other,BloodRayne,1,Action,10,1
+1,Other,In the Shadow of the Moon,0,Documentary,1,1
+1,Paramount Pictures,The Greatest Show on Earth,2,Action,1,1
+1,Other,Crocodile Dundee in Los Angeles,1,Adventure,4,2
+1,Universal Pictures,Krampus,1,Horror,11,1
+2,Universal Pictures,Snow White and the Huntsman,2,Adventure,5,4
+1,Other,Small Apartments,0,Comedy,3,1
+1,New Line Cinema,Jason Goes to Hell: The Final Friday,1,Fantasy,8,1
+1,New Line Cinema,Dumb and Dumber,2,Comedy,12,1
+1,Other,Blue Valentine,1,Drama,12,1
+0,Other,Echo Dr.,0,Thriller,11,0
+1,Twentieth Century Fox Film Corporation,The Newton Boys,1,Crime,3,5
+1,Paramount Pictures,Flight of the Intruder,0,Action,1,1
+1,Other,16 Blocks,1,Action,3,1
+1,Other,City of Angels,2,Drama,4,1
+0,United Artists,"Bright Lights, Big City",0,Drama,4,0
+1,Paramount Pictures,Dragonslayer,1,Fantasy,6,1
+2,Universal Pictures,The Mummy: Tomb of the Dragon Emperor,2,Adventure,7,3
+1,Other,The Empire Strikes Back,5,Adventure,5,1
+1,United Artists,Showgirls,1,Drama,9,2
+1,Other,The Sweetest Thing,1,Romance,4,1
+1,Other,The Limey,1,Action,5,1
+1,Other,The Assassination of Jesse James by the Coward Robert Ford,1,Action,9,1
+1,Universal Pictures,Larry Crowne,1,Comedy,6,1
+0,Regency Enterprises,Freddy Got Fingered,0,Comedy,4,1
+2,Warner Bros.,My Fair Lady,3,Drama,10,1
+1,Other,My Sister's Keeper,1,Drama,6,1
+0,Other,Teeth,0,Comedy,1,0
+1,Other,The Departed,2,Drama,10,1
+0,Other,Redemption Road,0,Drama,8,0
+1,Other,The Spanish Prisoner,1,Crime,9,1
+1,Columbia Pictures,Wild Things,1,Crime,3,1
+1,Miramax Films,Rounders,1,Drama,9,1
+1,Other,The 51st State,1,Thriller,12,1
+1,Other,Fur: An Imaginary Portrait of Diane Arbus,1,Drama,8,1
+2,Twentieth Century Fox Film Corporation,Home,2,Fantasy,3,3
+1,Paramount Pictures,The Conformist,0,Drama,10,1
+1,Columbia Pictures,Julie & Julia,1,Romance,8,0
+0,Other,Alpha and Omega: The Legend of the Saw Tooth Cave,0,Family,7,1
+0,Other,Desert Blue,0,Comedy,6,0
+1,Other,Monty Python and the Holy Grail,1,Adventure,3,1
+1,Summit Entertainment,Step Up 2: The Streets,1,Music,2,1
+1,The Weinstein Company,TMNT,1,Adventure,3,1
+1,Warner Bros.,The Good German,1,War,12,1
+1,Other,The Full Monty,2,Comedy,8,1
+0,Other,Solaris,0,Drama,3,0
+1,Other,A Serious Man,1,Comedy,10,1
+1,Other,The Last Exorcism,1,Horror,8,1
+1,Miramax Films,Scream 2,2,Horror,12,1
+1,Other,The Ruins,0,Drama,4,1
+0,Other,We Have Your Husband,0,TV Movie,11,0
+1,Universal Pictures,Casper,2,Fantasy,5,1
+1,Warner Bros.,On Deadly Ground,1,Action,2,1
+3,Other,Avatar,5,Action,12,5
+2,Other,Puss in Boots,3,Action,10,3
+1,Paramount Pictures,Drillbit Taylor,0,Comedy,3,1
+0,Universal Pictures,The Emperor's Club,0,Drama,11,0
+0,Other,Nancy Drew,0,Action,6,0
+0,Other,All Is Bright,0,Comedy,9,0
+1,The Weinstein Company,St. Vincent,1,Comedy,10,1
+1,Universal Pictures,High Plains Drifter,1,Western,4,1
+1,TriStar Pictures,Evil Dead,1,Horror,4,1
+1,Summit Entertainment,Alex Cross,1,Action,10,1
+1,Paramount Pictures,Paranormal Activity 2,1,Horror,10,1
+1,Lionsgate,Arbitrage,1,Drama,9,0
+1,Other,Reindeer Games,1,Thriller,2,1
+1,Other,Unfinished Business,1,Comedy,3,1
+1,United Artists,Raging Bull,1,Drama,11,3
+1,Universal Pictures,Torn Curtain,1,Mystery,7,1
+0,Other,Best in Show,0,Comedy,9,0
+1,Other,Of Horses and Men,1,Drama,8,1
+0,Other,Soul Food,0,Comedy,9,0
+1,Fox Searchlight Pictures,The Banger Sisters,0,Comedy,9,0
+0,Lionsgate,The Perfect Match,0,Comedy,3,0
+2,Columbia Pictures,Terminator Salvation,2,Action,5,3
+1,Other,No Man's Land: The Rise of Reeker,0,Horror,5,0
+0,Other,When Did You Last See Your Father?,1,Drama,10,0
+1,Other,Black Snake Moan,1,Drama,12,1
+1,Fox Searchlight Pictures,Antwone Fisher,1,Drama,12,1
+0,Other,Rize,0,Documentary,1,0
+1,Other,Get Carter,1,Action,10,1
+0,Universal Pictures,Legal Eagles,0,Comedy,6,0
+1,Columbia Pictures,Reign Over Me,1,Drama,3,1
+0,Metro-Goldwyn-Mayer (MGM),Dead Like Me: Life After Death,0,Drama,2,0
+0,Other,In Good Company,0,Comedy,12,0
+1,Paramount Pictures,Extreme Ops,1,Action,11,1
+1,Other,The Assassin,1,Action,8,1
+1,Miramax Films,Kids,1,Drama,7,1
+1,Other,Machete,1,Action,9,1
+1,DreamWorks SKG,Road Trip,1,Comedy,5,2
+1,Other,Tombstone,1,Action,12,1
+1,Other,Wasabi,0,Drama,10,1
+1,Other,Resident Evil: Retribution,2,Action,9,1
+1,Fox Searchlight Pictures,The Ice Storm,1,Drama,9,1
+2,Other,The Chronicles of Riddick,1,Action,6,2
+1,Other,ParaNorman,1,Family,8,1
+0,Other,A True Story,0,Comedy,9,0
+1,Miramax Films,Outside Providence,1,Romance,8,1
+2,Paramount Pictures,Rango,2,Animation,3,2
+1,Universal Pictures,Welcome Home Roscoe Jenkins,1,Comedy,2,1
+1,Village Roadshow Pictures,Firewall,1,Thriller,2,1
+0,Walt Disney Pictures,High School Musical 3: Senior Year,0,Comedy,10,0
+1,Other,True Romance,1,Action,9,1
+1,Other,Agent Cody Banks 2: Destination London,1,Comedy,12,1
+1,Other,Open Range,1,Western,8,0
+1,Other,The Homesman,1,Western,5,0
+0,Other,Easy Virtue,0,Comedy,1,0
+1,Other,Eyes Wide Shut,1,Mystery,7,1
+1,Other,White Squall,1,Action,2,1
+1,United Artists,Judgment at Nuremberg,1,Drama,12,4
+1,Other,The Return of the Living Dead,1,Comedy,5,1
+1,Other,Accidental Love,0,Romance,2,1
+1,Other,Sydney White,1,Comedy,9,1
+0,Other,What a Girl Wants,0,Comedy,3,0
+1,Other,Human Traffic,1,Comedy,6,1
+1,Other,Godzilla 2000,1,Adventure,12,1
+1,Columbia Pictures,Something's Gotta Give,2,Drama,12,1
+1,New Line Cinema,Journey 2: The Mysterious Island,2,Adventure,1,1
+0,Other,Maurice,0,Drama,9,0
+1,Other,Welcome to Collinwood,0,Comedy,5,1
+1,Paramount Pictures,Friday the 13th Part III,1,Horror,8,1
+1,Other,Dark Water,1,Drama,6,1
+1,Regency Enterprises,The Client,1,Drama,7,1
+1,Columbia Pictures,Concussion,1,Drama,11,1
+1,Other,Carlos,1,Crime,5,0
+0,Other,The Nut Job,0,Animation,1,1
+1,Other,The Red Violin,1,Drama,9,1
+1,Other,Black Mass,1,Crime,9,1
+1,Other,City By The Sea,1,Crime,9,1
+1,United Artists,Ghost World,0,Comedy,7,1
+1,DreamWorks SKG,Delivery Man,1,Comedy,10,2
+1,Other,Half Nelson,1,Drama,8,1
+1,Twentieth Century Fox Film Corporation,Alien: Resurrection,1,Science Fiction,11,1
+1,Other,Diary of the Dead,1,Horror,9,1
+1,Other,Stripes,1,Action,6,1
+1,Paramount Pictures,Stop-Loss,1,Drama,3,1
+1,Touchstone Pictures,Rushmore,1,Comedy,9,1
+1,Other,Stay Alive,1,Horror,3,1
+0,Other,Wild Hogs,2,Action,3,0
+1,TriStar Pictures,Rambo: First Blood Part II,3,Action,5,1
+1,Metro-Goldwyn-Mayer (MGM),Bulletproof Monk,0,Action,3,1
+1,Other,The Wild Bunch,1,Adventure,6,1
+1,Other,Rush,1,Drama,9,1
+1,Paramount Pictures,Bad Grandpa,1,Comedy,10,1
+1,Walt Disney Pictures,Max Keeble's Big Move,1,Comedy,10,1
+1,Other,Burnt,1,Drama,10,1
+1,Twentieth Century Fox Film Corporation,AlienÂ³,2,Science Fiction,5,1
+1,Other,Crimson Tide,2,Action,5,1
+1,Other,Blow Out,1,Drama,7,1
+1,Universal Pictures,Hellboy II: The Golden Army,1,Adventure,7,1
+1,Summit Entertainment,The Darkest Hour,1,Horror,12,1
+1,Other,Dream House,1,Drama,9,1
+1,Other,City Island,1,Drama,3,1
+1,Touchstone Pictures,Big Trouble,1,Action,4,1
+2,DreamWorks SKG,Shrek 2,5,Adventure,5,4
+1,Other,Far from Men,0,Drama,8,1
+2,Paramount Pictures,Mission: Impossible III,2,Adventure,5,4
+0,Other,The Face of an Angel,0,Thriller,9,0
+1,Paramount Pictures,Major League,1,Comedy,2,1
+1,Other,Big,2,Fantasy,6,4
+1,Other,The Ghost Writer,1,Thriller,2,1
+1,Paramount Pictures,Runaway Bride,2,Comedy,7,0
+1,Twentieth Century Fox Film Corporation,My Cousin Vinny,1,Comedy,3,0
+1,Other,Ink,0,Action,1,1
+1,Other,Central Station,1,Drama,1,1
+1,Other,Who Killed the Electric Car?,1,Documentary,8,1
+1,New Line Cinema,Drop Dead Gorgeous,1,Comedy,7,2
+1,Other,The Best Offer,1,Drama,1,1
+1,Other,Nurse Betty,0,Comedy,9,1
+1,Walt Disney Pictures,Lilo & Stitch,1,Animation,6,0
+1,Other,For Your Consideration,1,Comedy,11,1
+0,Metro-Goldwyn-Mayer (MGM),At First Sight,0,Drama,1,0
+1,Other,Stan Helsing,0,Comedy,10,1
+0,Other,"Yours, Mine and Ours",0,Comedy,4,0
+1,Walt Disney Pictures,102 Dalmatians,2,Comedy,10,1
+0,Other,Little Nicholas,0,Comedy,9,0
+1,United Artists,The Misfits,1,Drama,1,1
+1,Other,The Business of Fancydancing,0,Music,1,0
+1,Other,Pitch Black,1,Thriller,2,1
+2,Village Roadshow Pictures,The Matrix Reloaded,4,Adventure,5,4
+1,Universal Pictures,A Simple Wish,1,Adventure,7,1
+1,Twentieth Century Fox Film Corporation,Young Guns,1,Crime,8,1
+1,Other,Made in Dagenham,0,Comedy,9,1
+1,Fox Searchlight Pictures,The Last King of Scotland,1,Drama,9,1
+0,Paramount Pictures,Days of Heaven,0,Drama,9,0
+2,Other,Poseidon,1,Adventure,5,4
+1,Other,The Messenger,1,Drama,11,1
+1,Other,The Big Year,1,Comedy,10,1
+0,Other,The Return,0,Thriller,6,0
+1,Columbia Pictures,Hotel Transylvania,2,Animation,9,2
+1,Other,Click,2,Comedy,6,1
+1,New Line Cinema,The Secret Life of Walter Mitty,1,Adventure,12,1
+1,Other,Instructions Not Included,1,Comedy,7,1
+0,Other,Poolhall Junkies,0,Comedy,6,0
+1,Universal Pictures,"Hail, Caesar!",1,Comedy,2,1
+1,Other,Freakonomics,1,Documentary,10,1
+1,Other,Ayurveda: Art of Being,1,Documentary,9,1
+1,Other,The Queen,1,Drama,9,1
+1,Other,PokÃ©mon: Spell of the Unknown,1,Adventure,7,1
+1,Other,Think Like a Man Too,1,Comedy,6,1
+0,Other,The Cottage,0,Horror,2,0
+0,Other,Carriers,1,Action,9,0
+1,Other,Shortbus,1,Romance,5,1
+1,Village Roadshow Pictures,Exit Wounds,1,Action,3,3
+1,Other,The Hudsucker Proxy,0,Comedy,3,1
+1,Other,The Switch,1,Comedy,5,1
+0,Other,Firestorm,0,Action,12,0
+1,Other,Boys and Girls,1,Comedy,6,1
+2,Paramount Pictures,Transformers: Dark of the Moon,5,Action,6,2
+1,Regency Enterprises,In Time,1,Action,10,1
+1,Walt Disney Pictures,Enchanted,2,Comedy,11,1
+1,Paramount Pictures,Collateral,2,Drama,8,1
+0,Other,Can't Stop the Music,0,Comedy,6,0
+1,Twentieth Century Fox Film Corporation,Victor Frankenstein,1,Drama,11,1
+1,Other,Adam Resurrected,0,Drama,8,1
+1,Other,25th Hour,1,Crime,12,0
+1,Other,Tsotsi,1,Crime,8,1
+1,Other,Action Jackson,1,Action,2,1
+0,Other,The True Story of Puss 'n Boots,0,Family,4,0
+1,Twentieth Century Fox Film Corporation,Speed,3,Action,6,1
+1,Other,The Cry of the Owl,0,Drama,2,1
+0,Other,White Noise 2: The Light,0,Thriller,1,0
+1,Other,Whipped,0,Comedy,9,1
+0,Other,Sympathy for Lady Vengeance,1,Drama,7,0
+1,Paramount Pictures,True Grit,2,Drama,12,1
+1,Lionsgate,The Lazarus Effect,1,Thriller,1,1
+1,Paramount Pictures,Charlotte's Web,1,Comedy,12,0
+0,Other,Malibu's Most Wanted,0,Comedy,4,0
+1,Other,American Gangster,2,Drama,11,1
+1,New Line Cinema,The Texas Chain Saw Massacre,1,Horror,10,1
+1,Columbia Pictures,You Don't Mess with the Zohan,1,Comedy,6,1
+1,Paramount Pictures,Narc,1,Action,1,1
+1,Other,Nebraska,1,Drama,9,1
+1,Universal Pictures,The Purge,1,Science Fiction,5,1
+1,Other,Away We Go,1,Drama,6,1
+1,The Weinstein Company,The Giver,1,Drama,8,0
+1,Fox Searchlight Pictures,Stoker,1,Drama,2,1
+1,Universal Pictures,Tremors,1,Action,1,1
+2,Universal Pictures,Twister,4,Action,5,2
+1,Other,Lakeview Terrace,1,Drama,9,1
+1,Other,Grudge Match,1,Comedy,12,1
+1,New Line Cinema,Friday,1,Comedy,4,1
+1,Lionsgate,Criminal,1,Action,4,1
+1,Other,Little White Lies,1,Comedy,10,1
+1,New Line Cinema,Four Christmases,1,Comedy,11,1
+1,Other,Buried,1,Drama,9,1
+1,Summit Entertainment,The Impossible,1,Thriller,9,1
+1,Columbia Pictures,The Angry Birds Movie,2,Family,5,1
+1,Other,Licence to Kill,2,Adventure,7,1
+2,TriStar Pictures,Starship Troopers,1,Adventure,11,2
+1,Other,Robots,2,Animation,3,1
+1,Lionsgate,Saw VI,1,Horror,10,1
+1,Other,Run Lola Run,1,Action,8,1
+1,Other,The Gunman,1,Action,2,1
+1,Other,The Big Bounce,1,Comedy,1,1
+1,Other,xXx: State of the Union,1,Action,4,1
+1,New Line Cinema,Snakes on a Plane,1,Action,8,2
+1,Columbia Pictures,28 Days,0,Comedy,4,0
+1,Miramax Films,Chicago,2,Action,12,1
+1,Other,Spy Kids,1,Action,3,1
+1,Other,The Hundred-Foot Journey,1,Drama,8,1
+1,Warner Bros.,Juwanna Mann,0,Comedy,6,1
+0,Other,Observe and Report,1,Comedy,4,0
+0,Touchstone Pictures,The Last Shot,0,Action,9,0
+1,Other,Wolves,0,Horror,8,1
+0,Other,Illuminata,0,Drama,5,0
+1,Village Roadshow Pictures,Torque,1,Action,1,1
+1,Lionsgate,Good Luck Chuck,1,Comedy,9,1
+0,Other,The 41â€“Yearâ€“Old Virgin Who Knocked Up Sarah Marshall and Felt Superbad About It,0,Comedy,6,0
+1,Other,Lady in the Water,1,Drama,7,1
+1,Universal Pictures,Daylight,1,Action,12,1
+1,The Weinstein Company,Silver Linings Playbook,1,Drama,9,1
+1,Other,Out of the Furnace,1,Thriller,12,1
+1,Other,Stomp the Yard,1,Drama,5,1
+2,Walt Disney Pictures,Tomorrowland,1,Adventure,5,2
+0,Other,Darling Companion,0,Drama,4,0
+1,Other,Righteous Kill,1,Action,9,1
+1,Paramount Pictures,Trading Places,1,Comedy,6,1
+1,Fox Searchlight Pictures,127 Hours,1,Adventure,11,1
+1,Other,Jay and Silent Bob Strike Back,1,Comedy,8,1
+1,Other,Admission,1,Comedy,3,1
+1,Paramount Pictures,The Wild Thornberrys Movie,0,Animation,12,0
+0,Other,The Libertine,0,Drama,9,0
+1,Other,Exorcist: The Beginning,1,Horror,8,1
+1,Columbia Pictures,Almost Famous,1,Drama,9,2
+1,Columbia Pictures,The Bounty Hunter,1,Action,3,1
+0,Other,Truth or Dare,0,Horror,8,0
+1,DreamWorks SKG,Red Eye,1,Horror,8,1
+1,Other,Shalako,1,Western,11,0
+1,Columbia Pictures,Gattaca,1,Thriller,9,1
+0,Regency Enterprises,Alvin and the Chipmunks: The Road Chip,1,Adventure,12,1
+0,Columbia Pictures,Nowhere to Run,0,Action,1,0
+1,Warner Bros.,Roger & Me,1,Documentary,9,1
+1,Other,Untraceable,1,Drama,1,1
+1,Paramount Pictures,The Rainmaker,1,Drama,11,1
+1,Walt Disney Pictures,The Finest Hours,1,Action,1,1
+0,Twentieth Century Fox Film Corporation,Julia,0,Drama,10,1
+1,Warner Bros.,The Prestige,1,Drama,10,1
+1,New Line Cinema,Life as a House,0,Drama,10,1
+1,New Line Cinema,Glengarry Glen Ross,1,Crime,9,3
+1,Other,Project X,1,Comedy,3,1
+1,Paramount Pictures,Sky Captain and the World of Tomorrow,1,Mystery,9,1
+1,Other,Ballistic: Ecks vs. Sever,1,Action,9,1
+1,Twentieth Century Fox Film Corporation,Unstoppable,1,Action,11,1
+1,Twentieth Century Fox Film Corporation,Dr. Dolittle 2,1,Comedy,6,1
+0,Other,American Beast,0,Horror,10,0
+1,Other,Urban Legends: Final Cut,1,Horror,9,1
+1,Lions Gate Films,Saw II,1,Horror,10,1
+0,New Line Cinema,The Man,1,Action,9,0
+1,Warner Bros.,Exorcist II: The Heretic,1,Horror,6,1
+1,Other,The Informant!,1,Drama,9,1
+1,Other,Before I Go to Sleep,1,Mystery,9,1
+0,Other,Martha Marcy May Marlene,1,Drama,10,0
+1,Other,Silent Hill: Revelation 3D,1,Thriller,10,0
+1,Other,"For a Good Time, Call...",1,Comedy,8,1
+1,Other,Beautiful Creatures,1,Fantasy,2,1
+1,New Line Cinema,Final Destination,1,Horror,3,1
+2,Other,Iron Man 2,3,Adventure,4,2
+1,Paramount Pictures,A Night at the Roxbury,1,Comedy,10,1
+1,Other,The Painted Veil,0,Drama,12,1
+0,Other,Trash,0,Adventure,10,0
+0,Other,The Haunting in Connecticut 2: Ghosts of Georgia,0,Horror,2,0
+1,Other,Winged Migration,1,Documentary,12,0
+1,Other,A Dog's Breakfast,0,Comedy,3,1
+1,Miramax Films,Trainspotting,1,Drama,2,1
+1,Twentieth Century Fox Film Corporation,Parental Guidance,1,Comedy,12,2
+1,Other,Moonlight Mile,1,Romance,9,1
+1,The Weinstein Company,The Brothers Bloom,1,Adventure,9,1
+0,Other,Sanctuary: Quite a Conundrum,0,Thriller,1,0
+1,Other,Basquiat,1,Drama,8,1
+1,Universal Pictures,"As Above, So Below",1,Horror,8,1
+1,Universal Pictures,The Flintstones,3,Fantasy,5,1
+1,Universal Pictures,Sanctum,1,Action,2,1
+1,Other,Chicago Overcoat,0,Action,10,1
+1,Other,Conversations with Other Women,1,Drama,6,1
+1,Other,Sea of Love,1,Drama,9,1
+0,Other,The Perfect Wave,0,Romance,2,0
+1,Other,Sunshine Cleaning,1,Comedy,1,1
+1,New Line Cinema,Going the Distance,1,Comedy,9,1
+1,Twentieth Century Fox Film Corporation,Flight of the Phoenix,1,Action,12,1
+0,Other,Blue Ruin,1,Crime,4,1
+1,Fox Searchlight Pictures,Smilla's Sense of Snow,0,Action,2,1
+1,Paramount Pictures,Imagine That,0,Comedy,6,1
+1,Other,The Wedding Date,1,Comedy,2,1
+1,Other,Romeo + Juliet,1,Drama,10,1
+0,Fox Searchlight Pictures,The Brothers McMullen,0,Comedy,8,0
+0,Other,As It Is in Heaven,0,Romance,9,0
+1,Other,Mandela: Long Walk to Freedom,1,Drama,12,1
+1,Other,Friends with Benefits,1,Romance,7,0
+0,Other,An American Haunting,0,Horror,5,1
+1,Other,Edge of Darkness,1,Crime,1,1
+1,Twentieth Century Fox Film Corporation,The Siege,1,Drama,11,1
+1,New Line Cinema,Pride and Glory,1,Thriller,9,1
+2,Twentieth Century Fox Film Corporation,Volcano,0,Science Fiction,4,1
+1,Paramount Pictures,Hot Tub Time Machine 2,1,Comedy,2,1
+1,DreamWorks SKG,Galaxy Quest,1,Comedy,12,3
+0,Other,Taking Woodstock,0,Music,9,0
+1,Warner Bros.,The Fugitive,3,Adventure,8,1
+1,Other,Savages,1,Crime,7,0
+1,Other,The Mortal Instruments: City of Bones,1,Action,8,1
+1,Other,Heist,1,Crime,11,1
+1,Other,Vamps,0,Comedy,8,1
+0,Paramount Pictures,Top Five,1,Drama,12,0
+1,Columbia Pictures,Pixels,2,Action,7,2
+1,Touchstone Pictures,Dick Tracy,1,Adventure,6,3
+1,Other,Birdman,1,Drama,8,1
+0,Other,The Haunting of Molly Hartley,0,Drama,10,0
+2,Universal Pictures,Fast Five,3,Action,4,5
+1,Twentieth Century Fox Film Corporation,Taken 3,2,Thriller,12,1
+2,Other,Madagascar 3: Europe's Most Wanted,4,Animation,6,3
+0,Other,Lake Mungo,0,Horror,6,0
+1,TriStar Pictures,Miracles from Heaven,1,Drama,3,1
+1,DreamWorks SKG,The Fifth Estate,1,Drama,10,1
+1,Other,Four Lions,1,Comedy,5,1
+1,Columbia Pictures,Monster House,1,Animation,7,3
+1,Other,Tucker and Dale vs Evil,1,Comedy,1,1
+2,Twentieth Century Fox Film Corporation,Independence Day: Resurgence,2,Action,6,2
+1,Fox Searchlight Pictures,I Heart Huckabees,0,Comedy,9,0
+0,Other,Partition,0,Drama,2,0
+2,Walt Disney Pictures,Alice Through the Looking Glass,2,Fantasy,5,4
+1,Universal Pictures,Midnight Run,1,Adventure,7,1
+1,Other,Scary Movie 5,1,Comedy,4,1
+1,Columbia Pictures,The Bridge on the River Kwai,2,Drama,10,1
+1,Other,The Squid and the Whale,1,Comedy,10,1
+1,Other,Run All Night,1,Action,3,1
+0,Other,The Dangerous Lives of Altar Boys,0,Comedy,6,0
+2,Universal Pictures,Meet Joe Black,1,Fantasy,11,2
+1,Walt Disney Pictures,The Country Bears,0,Adventure,7,1
+1,Miramax Films,Everyone Says I Love You,0,Music,12,1
+1,Fox Searchlight Pictures,My Life in Ruins,1,Comedy,2,1
+1,Paramount Pictures,The SpongeBob Movie: Sponge Out of Water,2,Animation,2,1
+1,Other,The Thin Red Line,1,Drama,12,1
+1,New Line Cinema,Code Name: The Cleaner,1,Action,1,1
+1,Other,Khumba,1,Animation,7,1
+0,Other,Trouble with the Curve,0,Drama,9,0
+1,Other,Intolerance,1,Drama,9,1
+1,Metro-Goldwyn-Mayer (MGM),College,1,Comedy,8,1
+1,Miramax Films,In the Bedroom,0,Drama,11,1
+1,Other,Seeking a Friend for the End of the World,1,Comedy,6,1
+1,Universal Pictures,Red Dragon,2,Crime,9,1
+1,Other,Ca$h,1,Crime,1,1
+2,Twentieth Century Fox Film Corporation,Night at the Museum: Battle of the Smithsonian,2,Adventure,5,4
+1,Other,"Good Morning, Vietnam",2,Comedy,12,1
+0,Other,The Land Girls,0,Drama,9,0
+1,Other,Lights Out,1,Horror,7,1
+1,Paramount Pictures,The Indian in the Cupboard,0,Adventure,7,1
+1,Paramount Pictures,The Godfather: Part III,2,Crime,12,1
+2,Village Roadshow Pictures,Mad Max: Fury Road,2,Action,5,3
+1,New Line Cinema,Excessive Force,1,Action,5,1
+2,Walt Disney Pictures,The Emperor's New Groove,1,Adventure,12,3
+0,Other,The Merchant of Venice,0,Drama,9,0
+0,DreamWorks SKG,Anything Else,0,Comedy,8,0
+1,Columbia Pictures,The Wedding Planner,1,Comedy,1,1
+1,Other,Birthday Girl,0,Comedy,9,1
+1,Universal Pictures,The Change-Up,1,Comedy,8,2
+0,Other,Kicks,0,Adventure,9,0
+2,Paramount Pictures,The Avengers,5,Science Fiction,4,1
+0,Other,Headhunters,1,Thriller,8,0
+1,Other,Dolphins and Whales: Tribes of the Ocean,1,Documentary,2,1
+1,Warner Bros.,Jersey Boys,1,Music,6,1
+1,Twentieth Century Fox Film Corporation,Brokedown Palace,1,Drama,8,1
+2,Other,Clash of the Titans,2,Adventure,4,2
+1,Paramount Pictures,Dreamgirls,1,Drama,12,1
+1,Other,AVP: Alien vs. Predator,1,Adventure,8,1
+1,Universal Pictures,Pitch Perfect 2,2,Comedy,5,2
+1,Paramount Pictures,Fatal Attraction,3,Drama,9,1
+1,Universal Pictures,Scarface,1,Action,12,1
+1,Other,The Horseman on the Roof,1,War,9,1
+1,Other,eXistenZ,1,Action,4,1
+1,Twentieth Century Fox Film Corporation,Hitman,1,Action,11,1
+0,Other,Obvious Child,1,Comedy,6,0
+1,Other,Joy,1,Drama,12,1
+0,Other,Blood and Chocolate,0,Drama,1,0
+1,Walt Disney Pictures,Pocahontas,3,Adventure,6,3
+1,Lions Gate Films,Abduction,1,Thriller,9,1
+0,Other,Shine a Light,0,Documentary,2,0
+1,New Line Cinema,A Nightmare on Elm Street 5: The Dream Child,1,Horror,8,1
+1,Paramount Pictures,Black Rain,1,Action,9,1
+1,Walt Disney Pictures,Million Dollar Arm,1,Drama,5,1
+1,Other,Tusk,1,Comedy,9,1
+1,Columbia Pictures,Random Hearts,1,Drama,10,1
+1,New Line Cinema,Horrible Bosses 2,1,Comedy,11,1
+1,Universal Pictures,Wimbledon,1,Comedy,9,1
+1,Fox Searchlight Pictures,The Namesake,1,Drama,9,1
+2,Other,The Cotton Club,1,Music,12,3
+1,Miramax Films,Jackie Brown,1,Comedy,12,1
+1,Other,Killers,1,Action,6,1
+1,New Line Cinema,Jason X,1,Horror,7,1
+2,Village Roadshow Pictures,Dark Shadows,2,Comedy,5,4
+1,Other,Monsters,1,Drama,6,1
+1,Other,Dragon Nest: Warriors' Dawn,0,Adventure,5,1
+1,Fox Searchlight Pictures,Wild,1,Drama,12,1
+1,Touchstone Pictures,Phenomenon,1,Drama,7,1
+1,Other,While We're Young,1,Comedy,4,1
+0,Warner Bros.,The Replacements,0,Comedy,8,0
+1,Other,The Hateful Eight,1,Crime,12,0
+1,Other,300,3,Action,12,1
+1,Other,The Diary of a Teenage Girl,1,Drama,8,1
+2,Other,Exodus: Gods and Kings,2,Adventure,12,3
+2,Warner Bros.,Contact,2,Drama,7,3
+1,Other,The Shining,1,Horror,5,0
+1,Walt Disney Pictures,Hannah Montana: The Movie,1,Comedy,4,0
+1,Other,Source Code,1,Thriller,3,1
+1,Warner Bros.,You've Got Mail,2,Comedy,12,1
+1,Other,The Lunchbox,1,Drama,9,1
+0,Other,Catch a Fire,1,Action,10,0
+1,Other,The Spirit,1,Action,12,1
+0,Regency Enterprises,Copycat,0,Drama,10,1
+1,Other,Two Brothers,1,Adventure,4,2
+1,Columbia Pictures,Vampires,0,Action,4,1
+1,Paramount Pictures,Nacho Libre,1,Comedy,6,1
+1,Other,Justin Bieber: Never Say Never,1,Documentary,2,1
+1,Other,In the Cut,1,Mystery,9,1
+1,Universal Pictures,To Kill a Mockingbird,1,Crime,12,2
+2,New Line Cinema,Rush Hour 3,2,Action,8,2
+1,Village Roadshow Pictures,Music and Lyrics,1,Comedy,2,1
+1,Other,Waltz with Bashir,1,Drama,6,1
+0,Other,Wah-Wah,0,Drama,8,0
+1,Other,The Life of David Gale,1,Drama,2,1
+1,Twentieth Century Fox Film Corporation,Escape from the Planet of the Apes,1,Action,5,1
+1,Other,Curse of the Golden Flower,0,Action,12,1
+0,Other,Summer of Sam,0,Thriller,7,0
+1,Walt Disney Pictures,The Haunted Mansion,1,Thriller,11,4
+1,Other,"Jeff, Who Lives at Home",1,Drama,9,1
+1,Other,Diary of a Wimpy Kid,1,Comedy,3,1
+1,Other,Insidious: Chapter 3,1,Drama,6,1
+2,TriStar Pictures,Rambo III,2,Action,5,3
+1,Columbia Pictures,Zero Dark Thirty,1,Thriller,12,2
+1,Other,Highlander: The Final Dimension,1,Action,11,1
+1,The Weinstein Company,1408,1,Horror,7,1
+1,Other,Hellraiser,1,Horror,9,1
+0,Other,The Chumscrubber,0,Comedy,6,0
+1,Other,Session 9,1,Horror,8,1
+1,Other,City of Life and Death,1,Drama,4,1
+0,Other,Operation Chromite,0,History,7,0
+1,Columbia Pictures,Taxi Driver,1,Crime,2,1
+1,Other,The Black Hole,1,Adventure,12,1
+1,Other,The Oxford Murders,0,Crime,1,1
+1,Universal Pictures,Love Happens,1,Drama,9,1
+1,Other,"20,000 Leagues Under the Sea",2,Adventure,12,1
+1,Other,The Hills Have Eyes 2,0,Horror,3,1
+1,Lions Gate Films,Saw III,1,Horror,10,1
+1,Other,Bound,1,Crime,9,1
+0,United Artists,The Prisoner of Zenda,0,Adventure,9,1
+1,Universal Pictures,The Secret Life of Pets,4,Animation,6,1
+0,Other,The Poker House,0,Drama,6,0
+0,Paramount Pictures,Down to Earth,0,Fantasy,2,0
+1,Village Roadshow Pictures,Saving Silverman,1,Comedy,2,1
+1,Summit Entertainment,Allegiant,1,Adventure,3,4
+1,Other,The Ring Two,1,Drama,3,1
+1,Other,Old Joy,0,Drama,1,1
+1,Other,Anderson's Cross,0,Romance,5,1
+1,Other,My Dog Skip,0,Comedy,1,1
+1,Other,Eastern Promises,1,Thriller,9,1
+1,Miramax Films,An Unfinished Life,1,Drama,9,1
+1,Other,Stonewall,1,Drama,9,1
+1,Twentieth Century Fox Film Corporation,X-Men,2,Adventure,7,0
+1,Other,Gracie,1,Drama,6,1
+0,Columbia Pictures,An Everlasting Piece,0,Comedy,12,0
+0,Other,The Hammer,0,Comedy,4,0
+2,Paramount Pictures,The Adventures of Tintin,2,Adventure,10,3
+1,Paramount Pictures,Friday the 13th Part 2,1,Horror,5,1
+1,Other,27 Dresses,1,Comedy,1,1
+1,Columbia Pictures,Bucky Larson: Born to Be a Star,0,Comedy,9,1
+1,Other,Bad Words,1,Comedy,9,1
+1,Columbia Pictures,Surf's Up,1,Animation,6,0
+0,Miramax Films,Iris,0,Drama,12,0
+1,New Line Cinema,Inkheart,1,Adventure,12,1
+1,Other,Scream,2,Crime,12,0
+1,Other,Yoga Hosers,0,Comedy,7,1
+1,Touchstone Pictures,Spaced Invaders,1,Comedy,4,1
+0,Universal Pictures,Cry Freedom,0,Drama,11,0
+1,United Artists,Bananas,1,Comedy,4,1
+1,Warner Bros.,Disclosure,2,Drama,12,1
+1,Other,Savva. Heart of the Warrior,0,Fantasy,11,1
+1,Twentieth Century Fox Film Corporation,Gone Girl,2,Mystery,10,1
+0,Other,All the Real Girls,0,Drama,8,0
+1,Other,Red Riding Hood,1,Fantasy,3,1
+1,Other,90 Minutes in Heaven,1,Drama,9,1
+0,Other,Dogtooth,1,Drama,6,0
+1,Other,Red Sonja,1,Adventure,4,2
+1,DreamWorks SKG,Memoirs of a Geisha,1,Drama,12,1
+1,Other,Pink Flamingos,1,Horror,3,1
+1,Other,Legally Blonde,1,Comedy,7,1
+1,Other,Redacted,1,Drama,1,1
+1,Summit Entertainment,The Last Witch Hunter,1,Fantasy,10,1
+1,Other,My Own Private Idaho,0,Drama,10,1
+1,Other,Zoolander 2,1,Comedy,2,1
+1,Other,The Legend of Zorro,1,Action,10,1
+1,Other,Promised Land,1,Drama,9,1
+1,Walt Disney Pictures,The Rookie,1,Drama,3,1
+1,Twentieth Century Fox Film Corporation,The League of Extraordinary Gentlemen,1,Fantasy,7,1
+0,Other,Tae Guk Gi: The Brotherhood of War,1,Action,2,0
+0,Other,Tanner Hall,0,Drama,9,0
+1,Other,The Silence of the Lambs,2,Crime,2,1
+1,Other,Dead Snow,1,Horror,1,1
+1,The Weinstein Company,The Protector,1,Action,8,1
+1,Other,A Few Good Men,2,Drama,12,1
+0,Other,24 7: Twenty Four Seven,0,Comedy,8,0
+1,United Artists,Leaving Las Vegas,1,Drama,10,2
+0,Other,"Food, Inc.",0,Documentary,9,1
+1,Other,A Sound of Thunder,1,Thriller,5,0
+1,Other,Super Size Me,1,Documentary,1,1
+0,Other,Felicia's Journey,0,Drama,11,0
+0,Other,Def Jam's How to Be a Player,1,Comedy,8,0
+1,Other,Erin Brockovich,2,Drama,3,1
+1,Other,Stitches,1,Horror,5,0
+1,Other,Reign of Fire,1,Adventure,7,1
+1,Lions Gate Films,Saw,1,Horror,10,1
+1,Other,Death Race 2000,1,Action,4,1
+0,Touchstone Pictures,Mumford,0,Comedy,9,0
+1,Universal Pictures,Army of Darkness,0,Fantasy,10,1
+1,Paramount Pictures,Hercules,2,Action,7,1
+2,Paramount Pictures,Interstellar,3,Adventure,11,1
+2,Other,Captain America: The Winter Soldier,3,Action,3,2
+1,Other,Thunderbirds,1,Action,7,0
+1,Other,Super Hybrid,0,Horror,1,1
+1,New Line Cinema,Blast from the Past,1,Comedy,2,1
+1,Other,Whip It,1,Drama,9,1
+1,Paramount Pictures,Along Came a Spider,1,Crime,4,1
+1,Other,The Forest,1,Horror,1,1
+1,DreamWorks SKG,The Kite Runner,1,Drama,10,1
+1,Other,Veronika Decides to Die,0,Drama,5,1
+1,Paramount Pictures,Sliding Doors,1,Comedy,4,1
+1,Other,Closer to the Moon,0,Comedy,11,1
+1,Village Roadshow Pictures,American Sniper,3,War,12,3
+1,Other,The Beach,1,Drama,2,1
+0,Other,Man on Wire,1,Thriller,7,0
+1,Paramount Pictures,Dinner for Schmucks,1,Comedy,7,0
+1,Other,The Intern,1,Comedy,9,1
+2,Other,Mr. & Mrs. Smith,3,Action,6,2
+1,Columbia Pictures,What Planet Are You From?,0,Comedy,3,1
+0,Other,Red Riding: In the Year of Our Lord 1974,0,Thriller,2,0
+1,Other,Happily N'Ever After,1,Animation,9,1
+0,Other,Open Secret,0,Crime,2,0
+1,Other,Quest for Fire,1,Adventure,12,1
+1,Other,Beastly,1,Drama,1,1
+2,Village Roadshow Pictures,Swordfish,1,Action,6,2
+0,Other,Departure,0,Drama,5,0
+0,Other,Kangaroo Jack,0,Comedy,1,0
+1,Columbia Pictures,Step Brothers,1,Comedy,7,1
+1,Village Roadshow Pictures,Yes Man,2,Comedy,12,1
+0,Other,Pandora's Box,0,Drama,1,0
+0,Universal Pictures,The Guru,0,Comedy,8,0
+1,Other,Happy Feet,2,Animation,11,2
+1,Other,March of the Penguins,1,Documentary,1,1
+1,Other,Nomad: The Warrior,0,Action,7,0
+1,Other,Get Shorty,1,Comedy,10,1
+1,Other,Message in a Bottle,1,Romance,2,1
+1,Village Roadshow Pictures,The Great Gatsby,2,Drama,5,1
+2,Village Roadshow Pictures,Catwoman,1,Action,7,2
+1,Twentieth Century Fox Film Corporation,The Adventures of Ford Fairlane,1,Action,7,1
+1,Village Roadshow Pictures,The Majestic,1,Drama,12,3
+1,Universal Pictures,Despicable Me 2,5,Animation,6,1
+1,Columbia Pictures,Just Go with It,1,Romance,2,0
+1,The Weinstein Company,Our Idiot Brother,1,Comedy,8,1
+1,Walt Disney Pictures,Aladdin,4,Animation,11,4
+1,Twentieth Century Fox Film Corporation,"Dude, Whereâ€™s My Car?",1,Comedy,12,2
+0,Other,Songcatcher,0,Drama,3,0
+1,Walt Disney Pictures,Air Bud,1,Comedy,8,1
+1,Other,The Wizard of Oz,3,Adventure,8,1
+1,Universal Pictures,Topaz,1,Action,12,1
+0,Other,The Cat in the Hat,0,Comedy,11,0
+1,Paramount Pictures,Forrest Gump,5,Comedy,7,0
+1,Universal Pictures,Child's Play 2,1,Drama,11,1
+1,Columbia Pictures,Grown Ups 2,2,Comedy,7,1
+1,Other,Of Gods and Men,1,Drama,5,1
+1,Other,Amnesiac,0,Thriller,8,0
+1,Other,The Transporter,1,Action,10,1
+1,Other,We Are Your Friends,1,Drama,8,1
+2,Walt Disney Pictures,TRON: Legacy,2,Adventure,12,3
+2,Twentieth Century Fox Film Corporation,Speed 2: Cruise Control,2,Action,6,2
+1,Metro-Goldwyn-Mayer (MGM),Barbershop,1,Comedy,4,1
+1,Paramount Pictures,Once Upon a Time in the West,1,Western,12,1
+1,Other,Freedom,0,Drama,8,1
+1,Columbia Pictures,Guess Who,1,Comedy,3,1
+1,Other,Ladder 49,1,Drama,10,1
+1,Other,Get Hard,1,Comedy,3,1
+1,Paramount Pictures,Jackass: The Movie,1,Documentary,10,1
+1,Paramount Pictures,Star Trek: Nemesis,1,Science Fiction,12,1
+1,Summit Entertainment,The Hurt Locker,1,Drama,10,1
+1,Walt Disney Pictures,Into the Woods,1,Fantasy,12,1
+1,Universal Pictures,Fast Times at Ridgemont High,1,Comedy,8,2
+0,Twentieth Century Fox Film Corporation,Garfield: A Tail of Two Kitties,1,Animation,6,1
+0,Other,Dirty Work,0,Comedy,6,0
+1,Other,East Is East,1,Comedy,5,1
+1,Other,Spy Kids 3-D: Game Over,2,Action,7,0
+0,Other,Straightheads,0,Thriller,4,0
+2,Other,Guardians of the Galaxy,4,Action,7,4
+1,United Artists,Diamonds Are Forever,3,Adventure,12,4
+0,Other,Green Street Hooligans: Underground,0,Action,1,0
+0,Other,Clay Pigeons,0,Comedy,9,0
+0,Other,Jab Tak Hai Jaan,0,Drama,11,0
+1,Other,Straight A's,0,Comedy,1,1
+1,Other,Dangerous Liaisons,1,Drama,12,1
+0,Other,Time Changer,0,Comedy,10,0
+1,Twentieth Century Fox Film Corporation,Battle for the Planet of the Apes,1,Action,6,1
+0,Other,Mad Money,0,Action,1,0
+1,United Artists,GoldenEye,3,Adventure,11,3
+0,Other,The Hunting Party,0,Action,9,0
+0,Other,Running Forever,0,Family,10,0
+0,Other,Polisse,1,Drama,10,0
+1,Other,The Gift,1,Thriller,7,1
+1,Universal Pictures,D-Tox,1,Action,1,1
+1,TriStar Pictures,Universal Soldier: The Return,1,Action,8,1
+0,Lionsgate,They Came Together,0,Comedy,6,0
+0,Other,Rampage,0,Action,8,1
+1,Universal Pictures,Half Baked,1,Comedy,1,1
+0,Other,Hoot,0,Drama,5,0
+1,Other,A Dangerous Method,1,Drama,9,1
+0,Touchstone Pictures,The Crew,0,Action,8,1
+1,Other,Creepshow 2,1,Horror,5,0
+1,Walt Disney Pictures,Hocus Pocus,1,Comedy,7,0
+1,Other,The Guard,1,Action,7,0
+1,Walt Disney Pictures,Freaky Friday,1,Comedy,8,1
+2,Columbia Pictures,Ghostbusters,1,Action,7,2
+1,Metro-Goldwyn-Mayer (MGM),A Guy Thing,1,Comedy,1,1
+1,Universal Pictures,The Break-Up,1,Romance,6,1
+1,Other,The Howling,1,Drama,4,1
+1,Universal Pictures,Devil,1,Horror,1,1
+1,Twentieth Century Fox Film Corporation,Fantastic Mr. Fox,1,Adventure,10,1
+1,Universal Pictures,Everest,1,Adventure,9,1
+2,Other,The Croods,3,Adventure,3,2
+1,Columbia Pictures,The End of the Affair,1,Drama,12,1
+1,Columbia Pictures,Daddy Day Care,1,Comedy,5,1
+1,Other,A Low Down Dirty Shame,1,Action,11,1
+1,The Weinstein Company,Paddington,2,Family,11,1
+1,Other,London Has Fallen,1,Action,3,1
+1,Other,"Good Night, and Good Luck.",1,Drama,9,1
+1,Other,Brick Mansions,1,Action,4,1
+2,Touchstone Pictures,The 13th Warrior,1,Adventure,8,2
+2,Walt Disney Pictures,Home on the Range,1,Animation,4,2
+1,Walt Disney Pictures,Herbie Fully Loaded,1,Comedy,6,1
+1,Other,Mallrats,1,Romance,10,1
+1,Other,Made,1,Action,7,0
+1,Other,Shanghai Knights,1,Action,2,1
+1,Other,Mud,1,Drama,5,1
+1,Other,Curious George,1,Adventure,2,0
+1,Universal Pictures,Raising Cain,1,Drama,8,1
+0,Other,Scooby-Doo 2: Monsters Unleashed,1,Mystery,3,0
+1,Other,The Shawshank Redemption,1,Drama,9,1
+1,Other,In the Land of Blood and Honey,1,Drama,12,1
+1,New Line Cinema,Me Before You,1,Drama,6,1
+0,Other,The Hole,0,Thriller,9,0
+0,Universal Pictures,Flash of Genius,0,Drama,9,0
+1,Other,The Jacket,1,Drama,3,1
+1,Other,Ong Bak 2,1,Adventure,12,1
+1,Other,Kill the Messenger,1,Thriller,10,0
+2,Village Roadshow Pictures,Charlie and the Chocolate Factory,3,Adventure,7,3
+1,Other,The Usual Suspects,1,Drama,7,1
+1,Village Roadshow Pictures,Gran Torino,2,Drama,12,3
+1,Other,From Paris with Love,1,Action,2,1
+1,Metro-Goldwyn-Mayer (MGM),Logan's Run,1,Adventure,6,3
+0,Other,Christmas Eve,0,Romance,12,1
+1,Columbia Pictures,Once Upon a Time in Mexico,1,Action,9,1
+1,Other,Captive,1,Crime,9,1
+1,Universal Pictures,DragonHeart,1,Fantasy,5,1
+1,TriStar Pictures,Jumping the Broom,1,Comedy,5,1
+0,Fox Searchlight Pictures,Kinsey,0,Drama,9,0
+1,TriStar Pictures,Cliffhanger,2,Action,5,1
+0,Other,3 Backyards,0,Drama,1,0
+1,Universal Pictures,Georgia Rule,0,Comedy,5,2
+0,Other,The Secret of Kells,0,Animation,2,0
+1,Other,Bad Company,1,Action,6,1
+1,Paramount Pictures,Get Rich or Die Tryin',1,Drama,11,1
+1,Other,Straw Dogs,1,Drama,9,1
+1,DreamWorks SKG,The Prince of Egypt,2,Adventure,12,1
+1,Other,Maid in Manhattan,1,Comedy,12,1
+1,Other,AWOL-72,0,Thriller,8,0
+1,Other,Match Point,1,Drama,10,1
+1,Columbia Pictures,The Other Guys,1,Action,8,1
+1,Other,A Good Day to Die Hard,2,Action,2,1
+0,Other,A Madea Christmas,0,Comedy,12,0
+0,Other,Kevin Hart: Laugh at My Pain,0,Comedy,9,0
+1,Other,The Quiet,1,Drama,9,1
+1,Walt Disney Pictures,The Game Plan,1,Comedy,9,1
+1,Paramount Pictures,Tupac: Resurrection,1,Music,1,1
+1,Fox Searchlight Pictures,The Second Best Exotic Marigold Hotel,1,Drama,2,1
+1,Other,Sarah's Key,1,Drama,9,1
+1,Other,Legend,1,Crime,9,1
+1,Other,Area 51,0,Horror,5,0
+1,TriStar Pictures,Mary Reilly,1,Drama,2,1
+1,Village Roadshow Pictures,The Invasion,1,Science Fiction,8,1
+0,Other,Severance,0,Horror,5,1
+1,Warner Bros.,Ace Ventura: Pet Detective,1,Comedy,2,1
+2,Other,Pacific Rim,2,Action,7,4
+1,Other,Another Happy Day,1,Comedy,11,1
+1,Other,August: Osage County,1,Comedy,12,1
+0,Other,The White Countess,0,Drama,10,0
+1,Columbia Pictures,Punch-Drunk Love,1,Comedy,10,1
+1,Other,Super,1,Comedy,9,1
+1,Other,Youth in Revolt,0,Drama,9,1
+0,Other,High School Musical 2,1,Comedy,8,0
+1,Other,Enter the Void,1,Fantasy,5,1
+0,Fox Searchlight Pictures,The Good Thief,0,Crime,4,1
+1,Metro-Goldwyn-Mayer (MGM),Nine 1/2 Weeks,1,Drama,2,1
+1,Other,Selma,1,History,12,1
+1,DreamWorks SKG,Madagascar,3,Family,5,1
+1,Other,Ice Age: The Meltdown,4,Animation,3,1
+1,Fox Searchlight Pictures,Thirteen,1,Crime,8,0
+0,Other,Darkness,0,Horror,10,0
+1,Warner Bros.,Magic Mike XXL,1,Comedy,7,1
+1,Metro-Goldwyn-Mayer (MGM),Doctor Zhivago,4,Drama,12,1
+1,Other,Janky Promoters,1,Comedy,10,1
+1,Paramount Pictures,Barbarella,1,Science Fiction,10,1
+0,Other,The Wailing,0,Horror,5,1
+0,Other,Madea's Witness Protection,0,Drama,6,0
+0,Other,Sublime,0,Horror,6,0
+1,Summit Entertainment,The Twilight Saga: Eclipse,4,Adventure,6,2
+1,New Line Cinema,Thirteen Days,1,Drama,12,1
+1,Other,Bringing Down the House,1,Comedy,3,1
+1,Other,S.W.A.T.,1,Action,8,1
+1,Other,Margin Call,1,Thriller,9,1
+1,Other,The Land Before Time,1,Animation,11,2
+1,Columbia Pictures,Zathura: A Space Adventure,1,Family,11,1
+1,Other,Goodbye Bafana,0,History,2,1
+1,New Line Cinema,Freddy's Dead: The Final Nightmare,1,Horror,9,1
+3,Twentieth Century Fox Film Corporation,X-Men: Days of Future Past,4,Action,5,5
+1,Other,Holy Man,0,Drama,10,1
+1,Columbia Pictures,Risen,1,Action,2,1
+1,Walt Disney Pictures,The Pacifier,1,Action,3,1
+1,Other,Into the Wild,1,Adventure,9,1
+1,Other,Winter in Wartime,1,Drama,11,1
+0,Other,Masked and Anonymous,0,Drama,8,0
+1,Universal Pictures,Patch Adams,2,Comedy,12,1
+1,Other,Mondays in the Sun,1,Drama,9,1
+1,Other,A Prairie Home Companion,0,Drama,6,1
+1,Other,RockNRolla,1,Action,9,1
+1,Paramount Pictures,The Manchurian Candidate,1,Drama,7,1
+1,Other,Centurion,1,Adventure,2,0
+1,TriStar Pictures,Sparkle,1,Drama,8,1
+1,New Line Cinema,Little Nicky,0,Comedy,11,1
+1,Other,The Monkey King 2,1,Action,1,1
+1,Twentieth Century Fox Film Corporation,Flicka,1,Drama,10,1
+1,Other,Instinct,0,Drama,6,1
+1,The Weinstein Company,Sicko,1,Documentary,5,0
+1,Other,Pound of Flesh,0,Action,5,1
+1,Other,A Lonely Place to Die,1,Adventure,4,2
+1,Universal Pictures,BrÃ¼no,0,Comedy,7,1
+1,Other,Walk the Line,1,Drama,9,1
+1,Other,The Ant Bully,1,Fantasy,7,0
+1,Other,For Greater Glory - The True Story of Cristiada,1,History,6,1
+0,Other,Megiddo: The Omega Code 2,0,Action,9,0
+1,Columbia Pictures,Tears of the Sun,1,Action,3,1
+1,Universal Pictures,Big Fat Liar,1,Comedy,2,1
+1,Other,Wish I Was Here,1,Drama,1,1
+1,Paramount Pictures,Flashdance,1,Drama,4,1
+1,Other,The Maze Runner,2,Action,9,1
+2,Columbia Pictures,Bad Boys II,2,Adventure,7,1
+1,Other,Reservoir Dogs,1,Crime,9,1
+0,Other,Meteor,0,Action,10,0
+1,Regency Enterprises,The Fountain,1,Drama,9,1
+1,Other,Fish Tank,1,Drama,5,1
+1,Other,The Cooler,0,Drama,1,1
+1,Other,"I, Frankenstein",1,Horror,1,1
+0,Other,Frost/Nixon,0,Drama,10,0
+1,Walt Disney Pictures,The Jungle Book 2,1,Family,2,1
+1,Regency Enterprises,Life or Something Like It,1,Comedy,4,1
+1,Other,Unforgiven,2,Western,8,0
+1,Miramax Films,Clerks,1,Comedy,9,1
+0,Other,Western Religion,0,Western,10,0
+1,Twentieth Century Fox Film Corporation,What Happens in Vegas,1,Comedy,5,1
+1,Paramount Pictures,The Love Guru,1,Comedy,6,1
+1,Other,The Medallion,0,Thriller,8,0
+1,Columbia Pictures,21,1,Drama,3,1
+1,Paramount Pictures,Anchorman 2: The Legend Continues,1,Comedy,12,0
+1,Universal Pictures,Blackhat,1,Crime,1,1
+1,Other,The Big Wedding,1,Comedy,4,1
+1,Fox Searchlight Pictures,Boys Don't Cry,1,Crime,9,0
+1,Universal Pictures,The Five-Year Engagement,1,Comedy,4,1
+0,Other,Eden Lake,1,Horror,9,0
+2,Walt Disney Pictures,Pirates of the Caribbean: The Curse of the Black Pearl,4,Adventure,7,3
+1,Metro-Goldwyn-Mayer (MGM),Bathing Beauty,1,Comedy,7,1
+1,Other,Tinker Tailor Soldier Spy,0,Drama,9,1
+2,Other,Black Hawk Down,1,Action,12,1
+1,New Line Cinema,The Final Destination,1,Horror,8,1
+0,Other,You Can Count on Me,0,Drama,11,0
+1,DreamWorks SKG,Just Like Heaven,1,Comedy,9,2
+1,Paramount Pictures,Ordinary People,0,Drama,9,1
+0,Other,The Party's Over,0,Drama,4,0
+1,Universal Pictures,The Purge: Anarchy,1,Horror,7,1
+0,Other,White Oleander,0,Drama,10,0
+1,Other,Country Strong,1,Drama,12,1
+2,Walt Disney Pictures,Treasure Planet,1,Adventure,11,2
+1,Warner Bros.,Midnight Special,1,Adventure,2,1
+1,Fox Searchlight Pictures,(500) Days of Summer,1,Comedy,7,1
+1,Other,Lord of War,1,Crime,9,1
+2,Other,Inception,4,Action,7,4
+0,Twentieth Century Fox Film Corporation,The Blue Bird,0,Drama,1,1
+1,Paramount Pictures,The Truman Show,2,Comedy,6,1
+1,Metro-Goldwyn-Mayer (MGM),Fled,1,Action,7,1
+1,Other,Bill & Ted's Excellent Adventure,1,Adventure,2,0
+1,Miramax Films,The I Inside,0,Thriller,1,2
+1,Other,Body of Lies,1,Action,10,1
+1,Other,Elsa & Fred,0,Comedy,3,1
+0,United Artists,"New York, New York",0,Drama,6,0
+1,Fox Searchlight Pictures,Quills,1,Drama,11,1
+1,Warner Bros.,Tango & Cash,1,Action,12,1
+0,Other,Mickey Blue Eyes,0,Comedy,8,0
+2,Walt Disney Pictures,Frozen,5,Animation,11,2
+1,Other,The Call of Cthulhu,0,Horror,1,1
+1,Miramax Films,Everybody's Fine,0,Drama,12,1
+1,Miramax Films,Kill Bill: Vol. 1,1,Action,10,1
+1,Metro-Goldwyn-Mayer (MGM),Boom Town,1,Adventure,8,1
+1,Other,Pierrot le Fou,0,Drama,8,1
+1,Other,Persepolis,0,Animation,5,1
+0,Other,Black Water Transit,0,Drama,5,0
+1,Other,Flame & Citron,0,Crime,3,1
+1,Other,Light Sleeper,0,Drama,8,1
+0,Other,Dead Man Down,1,Thriller,3,0
+1,Other,11:14,0,Crime,5,0
+1,Columbia Pictures,Rent,1,Drama,11,1
+1,Regency Enterprises,Unfaithful,1,Thriller,5,1
+1,Other,Lolita,1,Drama,6,1
+0,Other,Nowhere in Africa,0,Drama,12,0
+1,Other,Eden,0,Thriller,10,0
+1,Columbia Pictures,RoboCop,2,Action,1,1
+0,Other,Subconscious,0,Action,3,0
+1,Other,Nutty Professor II: The Klumps,1,Fantasy,7,0
+0,Walt Disney Pictures,Doug's 1st Movie,0,Animation,3,1
+1,Summit Entertainment,Insurgent,2,Adventure,3,4
+0,Other,The Ten,0,Comedy,8,0
+1,Metro-Goldwyn-Mayer (MGM),Soul Plane,1,Romance,5,1
+1,Summit Entertainment,Man on a Ledge,1,Action,1,1
+1,Other,Character,0,Drama,4,1
+1,Universal Pictures,Man of the Year,1,Comedy,10,1
+1,Other,Gremlins,2,Fantasy,6,4
+1,Other,Flightplan,2,Thriller,9,1
+1,Columbia Pictures,Multiplicity,0,Comedy,7,1
+1,Miramax Films,Shakespeare in Love,2,Romance,12,1
+1,Columbia Pictures,One Direction: This Is Us,0,Documentary,8,1
+0,Other,The Specials,0,Action,9,0
+1,Universal Pictures,The Kingdom,1,Thriller,8,1
+0,Other,The Orphanage,1,Horror,8,0
+1,Paramount Pictures,The Naked Gun 33â…“: The Final Insult,1,Comedy,3,1
+1,Warner Bros.,Cop Out,1,Action,2,1
+1,Columbia Pictures,The Tailor of Panama,1,Drama,2,0
+1,Other,The Good Guy,0,Comedy,4,1
+0,Other,Why I Did (Not) Eat My Father,0,Adventure,4,0
+1,New Line Cinema,Final Destination 5,1,Horror,8,1
+1,Columbia Pictures,Sense and Sensibility,1,Drama,12,1
+1,Paramount Pictures,The Stepford Wives,1,Action,6,1
+2,Other,The Dark Knight,5,Drama,7,3
+1,Other,The Peanuts Movie,2,Animation,11,2
+1,Other,Chasing Liberty,1,Comedy,1,1
+1,Other,Miracle at St. Anna,1,Drama,9,1
+1,Other,Bon Cop Bad Cop,1,Action,7,0
+1,Other,Sleep Dealer,1,Drama,12,1
+1,Other,Blood Diamond,1,Drama,12,1
